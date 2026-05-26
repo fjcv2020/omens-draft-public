@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T13:07:05Z",
+  "generated_at": "2026-05-26T13:40:30Z",
   "source": {
     "api_url": "https://fab-insights.azurewebsites.net/api/v1/download_csv",
     "format": 7,
@@ -1211,7 +1211,7 @@
       "games": 3732,
       "heroes": 3,
       "card_games": 3281,
-      "equipment_games": 3725,
+      "equipment_games": 3574,
       "method": "Card priority is inferred from cards present in played decks, not real draft picks. Score combines smoothed winrate, sample size, average copies, and played-per-game.",
       "color_count_min_games": 10
     },
@@ -21355,134 +21355,116 @@
         {
           "count": 0,
           "label": "0",
-          "games": 2,
-          "wins": 1,
-          "wr": 50.0
+          "games": 47,
+          "wins": 29,
+          "wr": 61.7
         },
         {
           "count": 1,
           "label": "1",
-          "games": 6,
-          "wins": 1,
-          "wr": 16.7
+          "games": 168,
+          "wins": 105,
+          "wr": 62.5
         },
         {
           "count": 2,
           "label": "2",
-          "games": 76,
-          "wins": 39,
-          "wr": 51.3
+          "games": 433,
+          "wins": 232,
+          "wr": 53.6
         },
         {
           "count": 3,
           "label": "3",
-          "games": 238,
-          "wins": 144,
-          "wr": 60.5
+          "games": 507,
+          "wins": 267,
+          "wr": 52.7
         },
         {
           "count": 4,
           "label": "4+",
-          "games": 996,
-          "wins": 533,
-          "wr": 53.5
+          "games": 163,
+          "wins": 85,
+          "wr": 52.1
         }
       ],
       "aurora_emissary_of_lightning": [
         {
           "count": 0,
           "label": "0",
-          "games": 0,
-          "wins": 0,
-          "wr": 0.0
+          "games": 69,
+          "wins": 43,
+          "wr": 62.3
         },
         {
           "count": 1,
           "label": "1",
-          "games": 9,
-          "wins": 5,
-          "wr": 55.6
+          "games": 190,
+          "wins": 104,
+          "wr": 54.7
         },
         {
           "count": 2,
           "label": "2",
-          "games": 80,
-          "wins": 49,
-          "wr": 61.3
+          "games": 407,
+          "wins": 196,
+          "wr": 48.2
         },
         {
           "count": 3,
           "label": "3",
-          "games": 207,
-          "wins": 106,
-          "wr": 51.2
+          "games": 443,
+          "wins": 185,
+          "wr": 41.8
         },
         {
           "count": 4,
           "label": "4+",
-          "games": 1017,
-          "wins": 448,
-          "wr": 44.1
+          "games": 204,
+          "wins": 80,
+          "wr": 39.2
         }
       ],
       "zyggy": [
         {
           "count": 0,
           "label": "0",
-          "games": 5,
-          "wins": 1,
-          "wr": 20.0
+          "games": 42,
+          "wins": 29,
+          "wr": 69.0
         },
         {
           "count": 1,
           "label": "1",
-          "games": 11,
-          "wins": 5,
-          "wr": 45.5
+          "games": 171,
+          "wins": 89,
+          "wr": 52.0
         },
         {
           "count": 2,
           "label": "2",
-          "games": 71,
-          "wins": 37,
-          "wr": 52.1
+          "games": 369,
+          "wins": 178,
+          "wr": 48.2
         },
         {
           "count": 3,
           "label": "3",
-          "games": 203,
-          "wins": 97,
-          "wr": 47.8
+          "games": 376,
+          "wins": 170,
+          "wr": 45.2
         },
         {
           "count": 4,
           "label": "4+",
-          "games": 811,
-          "wins": 401,
-          "wr": 49.4
+          "games": 143,
+          "wins": 75,
+          "wr": 52.4
         }
       ]
     },
     "hero_equipment_cards": {
       "oscilio_scion_of_the_third_age": [
-        {
-          "id": "volzar_meteor_storm",
-          "name": "Volzar, Meteor Storm",
-          "games": 1280,
-          "wins": 713,
-          "wr": 55.7,
-          "smoothed_wr": 55.69,
-          "score": 70.09
-        },
-        {
-          "id": "oscilio_scion_of_the_third_age",
-          "name": "Oscilio, Scion of the Third Age",
-          "games": 1067,
-          "wins": 594,
-          "wr": 55.7,
-          "smoothed_wr": 55.65,
-          "score": 70.05
-        },
         {
           "id": "constella_waves",
           "name": "Constella Waves",
@@ -21602,36 +21584,9 @@
           "smoothed_wr": 54.23,
           "score": 68.63,
           "image_url": "https://prod-content.fabrary.io/cards/OMN144.webp"
-        },
-        {
-          "id": "oscilio_forked_continuum",
-          "name": "Oscilio, Forked Continuum",
-          "games": 1,
-          "wins": 0,
-          "wr": 0.0,
-          "smoothed_wr": 37.5,
-          "score": 37.68
         }
       ],
       "aurora_emissary_of_lightning": [
-        {
-          "id": "scorpio_comet_tail",
-          "name": "Scorpio, Comet Tail",
-          "games": 1268,
-          "wins": 595,
-          "wr": 46.9,
-          "smoothed_wr": 46.93,
-          "score": 61.33
-        },
-        {
-          "id": "aurora_emissary_of_lightning",
-          "name": "Aurora, Emissary of Lightning",
-          "games": 1236,
-          "wins": 581,
-          "wr": 47.0,
-          "smoothed_wr": 47.01,
-          "score": 61.41
-        },
         {
           "id": "snap_fingers",
           "name": "Snap Fingers",
@@ -21751,36 +21706,9 @@
           "smoothed_wr": 35.52,
           "score": 49.92,
           "image_url": "https://prod-content.fabrary.io/cards/OMN207.webp"
-        },
-        {
-          "id": "aurora",
-          "name": "Aurora",
-          "games": 3,
-          "wins": 1,
-          "wr": 33.3,
-          "smoothed_wr": 41.67,
-          "score": 42.21
         }
       ],
       "zyggy": [
-        {
-          "id": "zyggy",
-          "name": "Zyggy",
-          "games": 1031,
-          "wins": 518,
-          "wr": 50.2,
-          "smoothed_wr": 50.24,
-          "score": 64.64
-        },
-        {
-          "id": "aphrodias",
-          "name": "Aphrodias",
-          "games": 956,
-          "wins": 501,
-          "wr": 52.4,
-          "smoothed_wr": 52.4,
-          "score": 66.8
-        },
         {
           "id": "fingers_of_fragmentation",
           "name": "Fingers of Fragmentation",
@@ -21907,107 +21835,273 @@
       "oscilio_scion_of_the_third_age": [
         {
           "equipment": [
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
+            "Constella Waves"
           ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 3,
-          "label": "3",
-          "games": 51,
-          "wins": 36,
-          "wr": 70.6
+          "equipment_key": "Constella Waves",
+          "count": 1,
+          "label": "1",
+          "games": 59,
+          "wins": 41,
+          "wr": 69.5
+        },
+        {
+          "equipment": [],
+          "equipment_key": "No equipment",
+          "count": 0,
+          "label": "0",
+          "games": 47,
+          "wins": 29,
+          "wr": 61.7
         },
         {
           "equipment": [
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
+            "Boots of Astral Sanctuary",
+            "Constella Waves"
           ],
-          "equipment_key": "Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
+          "equipment_key": "Boots of Astral Sanctuary + Constella Waves",
           "count": 2,
           "label": "2",
-          "games": 40,
-          "wins": 27,
-          "wr": 67.5
+          "games": 23,
+          "wins": 18,
+          "wr": 78.3
         },
         {
           "equipment": [
-            "Gloves of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
+            "Gloves of Astral Sanctuary"
           ],
-          "equipment_key": "Gloves of Astral Sanctuary + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
+          "equipment_key": "Gloves of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 19,
+          "wins": 13,
+          "wr": 68.4
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Constella Waves + Seeker's Gilet",
+          "count": 2,
+          "label": "2",
+          "games": 18,
+          "wins": 10,
+          "wr": 55.6
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Constella Waves + Helm of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 18,
+          "wins": 8,
+          "wr": 44.4
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Constella Waves",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Constella Tiara + Constella Waves + Starflow Robes",
           "count": 3,
           "label": "3",
           "games": 17,
-          "wins": 12,
-          "wr": 70.6
+          "wins": 10,
+          "wr": 58.8
         },
         {
           "equipment": [
             "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Gilet",
-            "Volzar, Meteor Storm"
+            "Seeker's Leggings"
           ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Seeker's Gilet + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 15,
+          "equipment_key": "Constella Waves + Seeker's Leggings",
+          "count": 2,
+          "label": "2",
+          "games": 17,
           "wins": 9,
-          "wr": 60.0
+          "wr": 52.9
         },
         {
           "equipment": [
             "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Leggings",
-            "Volzar, Meteor Storm"
+            "Laced Lightning"
           ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Seeker's Leggings + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 15,
-          "wins": 9,
-          "wr": 60.0
-        },
-        {
-          "equipment": [
-            "Constella Waves",
-            "Laced Lightning",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Waves + Laced Lightning + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 14,
-          "wins": 11,
-          "wr": 78.6
+          "equipment_key": "Constella Waves + Laced Lightning",
+          "count": 2,
+          "label": "2",
+          "games": 16,
+          "wins": 13,
+          "wr": 81.2
         },
         {
           "equipment": [
             "Boots of Astral Sanctuary",
             "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
+            "Seeker's Gilet"
           ],
-          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Seeker's Gilet",
+          "count": 3,
+          "label": "3",
+          "games": 16,
+          "wins": 10,
+          "wr": 62.5
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Helm of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Starflow Robes",
+          "count": 3,
+          "label": "3",
+          "games": 16,
+          "wins": 10,
+          "wr": 62.5
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 16,
+          "wins": 10,
+          "wr": 62.5
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Constella Waves + Robe of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 16,
+          "wins": 5,
+          "wr": 31.2
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 15,
+          "wins": 9,
+          "wr": 60.0
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Seeker's Gilet",
+            "Seeker's Leggings"
+          ],
+          "equipment_key": "Constella Waves + Seeker's Gilet + Seeker's Leggings",
+          "count": 3,
+          "label": "3",
+          "games": 15,
+          "wins": 6,
+          "wr": 40.0
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 10,
+          "wr": 71.4
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Laced Lightning",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Constella Waves + Laced Lightning + Seeker's Gilet",
+          "count": 3,
+          "label": "3",
+          "games": 14,
+          "wins": 8,
+          "wr": 57.1
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 7,
+          "wr": 50.0
+        },
+        {
+          "equipment": [
+            "Constella Waves",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Constella Waves + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 6,
+          "wr": 42.9
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Helm of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 5,
+          "wr": 35.7
+        },
+        {
+          "equipment": [
+            "Constella Tiara"
+          ],
+          "equipment_key": "Constella Tiara",
+          "count": 1,
+          "label": "1",
+          "games": 14,
+          "wins": 5,
+          "wr": 35.7
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Seeker's Hood"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Seeker's Hood",
+          "count": 2,
+          "label": "2",
           "games": 13,
           "wins": 9,
           "wr": 69.2
         },
         {
           "equipment": [
-            "Helm of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
+            "Seeker's Mitts"
           ],
-          "equipment_key": "Helm of Astral Sanctuary + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 3,
-          "label": "3",
+          "equipment_key": "Seeker's Mitts",
+          "count": 1,
+          "label": "1",
           "games": 13,
           "wins": 8,
           "wr": 61.5
@@ -22015,139 +22109,35 @@
         {
           "equipment": [
             "Constella Waves",
-            "Helm of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 13,
-          "wins": 5,
-          "wr": 38.5
-        },
-        {
-          "equipment": [
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Gilet",
-            "Seeker's Leggings",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Seeker's Gilet + Seeker's Leggings + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 13,
-          "wins": 5,
-          "wr": 38.5
-        },
-        {
-          "equipment": [
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 13,
-          "wins": 5,
-          "wr": 38.5
-        },
-        {
-          "equipment": [
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
             "Robe of Astral Sanctuary",
-            "Volzar, Meteor Storm"
+            "Seeker's Hood"
           ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Robe of Astral Sanctuary + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 13,
-          "wins": 4,
-          "wr": 30.8
-        },
-        {
-          "equipment": [
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Hood",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Seeker's Hood + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Constella Waves + Robe of Astral Sanctuary + Seeker's Hood",
+          "count": 3,
+          "label": "3",
           "games": 12,
           "wins": 9,
           "wr": 75.0
         },
         {
           "equipment": [
-            "Gloves of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Hood",
-            "Volzar, Meteor Storm"
+            "Constella Waves",
+            "Seeker's Hood"
           ],
-          "equipment_key": "Gloves of Astral Sanctuary + Oscilio, Scion of the Third Age + Seeker's Hood + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Constella Waves + Seeker's Hood",
+          "count": 2,
+          "label": "2",
           "games": 12,
           "wins": 9,
           "wr": 75.0
-        },
-        {
-          "equipment": [
-            "Gloves of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Gloves of Astral Sanctuary + Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 8,
-          "wr": 66.7
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Gilet",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Oscilio, Scion of the Third Age + Seeker's Gilet + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 7,
-          "wr": 58.3
         },
         {
           "equipment": [
             "Constella Waves",
             "Helm of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
+            "Robe of Astral Sanctuary"
           ],
-          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 7,
-          "wr": 58.3
-        },
-        {
-          "equipment": [
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Mitts",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Oscilio, Scion of the Third Age + Seeker's Mitts + Volzar, Meteor Storm",
+          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Robe of Astral Sanctuary",
           "count": 3,
           "label": "3",
           "games": 12,
@@ -22156,29 +22146,62 @@
         },
         {
           "equipment": [
+            "Boots of Astral Sanctuary",
             "Constella Waves",
-            "Laced Lightning",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Gilet",
-            "Volzar, Meteor Storm"
+            "Starflow Robes"
           ],
-          "equipment_key": "Constella Waves + Laced Lightning + Oscilio, Scion of the Third Age + Seeker's Gilet + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 6,
-          "wr": 50.0
+          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Starflow Robes",
+          "count": 3,
+          "label": "3",
+          "games": 11,
+          "wins": 8,
+          "wr": 72.7
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Constella Waves",
+            "Seeker's Hood"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Seeker's Hood",
+          "count": 3,
+          "label": "3",
+          "games": 11,
+          "wins": 7,
+          "wr": 63.6
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Constella Waves",
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Constella Tiara + Constella Waves + Robe of Astral Sanctuary",
+          "count": 3,
+          "label": "3",
+          "games": 11,
+          "wins": 7,
+          "wr": 63.6
         },
         {
           "equipment": [
             "Gloves of Astral Sanctuary",
-            "Helm of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
+            "Seeker's Leggings"
           ],
-          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Gloves of Astral Sanctuary + Seeker's Leggings",
+          "count": 2,
+          "label": "2",
+          "games": 11,
+          "wins": 7,
+          "wr": 63.6
+        },
+        {
+          "equipment": [
+            "Starflow Robes"
+          ],
+          "equipment_key": "Starflow Robes",
+          "count": 1,
+          "label": "1",
           "games": 11,
           "wins": 7,
           "wr": 63.6
@@ -22186,1422 +22209,1082 @@
         {
           "equipment": [
             "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Robe of Astral Sanctuary",
-            "Seeker's Hood",
-            "Volzar, Meteor Storm"
+            "Helm of Astral Sanctuary",
+            "Laced Lightning"
           ],
-          "equipment_key": "Constella Waves + Oscilio, Scion of the Third Age + Robe of Astral Sanctuary + Seeker's Hood + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 9,
-          "wr": 90.0
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Hood",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Oscilio, Scion of the Third Age + Seeker's Hood + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
+          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Laced Lightning",
+          "count": 3,
+          "label": "3",
+          "games": 11,
           "wins": 6,
-          "wr": 60.0
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 6,
-          "wr": 60.0
+          "wr": 54.5
         },
         {
           "equipment": [
             "Constella Tiara",
             "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Robe of Astral Sanctuary",
-            "Volzar, Meteor Storm"
+            "Seeker's Gilet"
           ],
-          "equipment_key": "Constella Tiara + Constella Waves + Oscilio, Scion of the Third Age + Robe of Astral Sanctuary + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 6,
-          "wr": 60.0
-        },
-        {
-          "equipment": [
-            "Constella Tiara",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Gilet",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Tiara + Constella Waves + Oscilio, Scion of the Third Age + Seeker's Gilet + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
+          "equipment_key": "Constella Tiara + Constella Waves + Seeker's Gilet",
+          "count": 3,
+          "label": "3",
+          "games": 11,
           "wins": 3,
-          "wr": 30.0
-        },
-        {
-          "equipment": [
-            "Constella Tiara",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Tiara + Constella Waves + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 3,
-          "wr": 30.0
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Constella Waves",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Volzar, Meteor Storm",
-          "count": 3,
-          "label": "3",
-          "games": 9,
-          "wins": 9,
-          "wr": 100.0
-        },
-        {
-          "equipment": [
-            "Constella Tiara",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Tiara + Constella Waves + Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 7,
-          "wr": 77.8
-        },
-        {
-          "equipment": [
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 3,
-          "label": "3",
-          "games": 9,
-          "wins": 7,
-          "wr": 77.8
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Oscilio, Scion of the Third Age + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 6,
-          "wr": 66.7
-        },
-        {
-          "equipment": [
-            "Constella Tiara",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Tiara + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 3,
-          "label": "3",
-          "games": 9,
-          "wins": 5,
-          "wr": 55.6
+          "wr": 27.3
         },
         {
           "equipment": [
             "Constella Waves",
             "Helm of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Robe of Astral Sanctuary",
-            "Volzar, Meteor Storm"
+            "Seeker's Gilet"
           ],
-          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Oscilio, Scion of the Third Age + Robe of Astral Sanctuary + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 5,
-          "wr": 55.6
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Constella Waves",
-            "Oscilio, Scion of the Third Age",
-            "Robe of Astral Sanctuary",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Oscilio, Scion of the Third Age + Robe of Astral Sanctuary + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 4,
-          "wr": 44.4
-        },
-        {
-          "equipment": [
-            "Boots of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Boots of Astral Sanctuary + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
+          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Seeker's Gilet",
           "count": 3,
           "label": "3",
-          "games": 9,
-          "wins": 4,
-          "wr": 44.4
+          "games": 10,
+          "wins": 7,
+          "wr": 70.0
         },
         {
           "equipment": [
-            "Constella Waves",
-            "Helm of Astral Sanctuary",
-            "Laced Lightning",
-            "Oscilio, Scion of the Third Age",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Laced Lightning + Oscilio, Scion of the Third Age + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 4,
-          "wr": 44.4
-        },
-        {
-          "equipment": [
-            "Oscilio, Scion of the Third Age",
             "Seeker's Leggings",
-            "Seeker's Mitts",
-            "Volzar, Meteor Storm"
+            "Seeker's Mitts"
           ],
-          "equipment_key": "Oscilio, Scion of the Third Age + Seeker's Leggings + Seeker's Mitts + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 8,
-          "wins": 5,
-          "wr": 62.5
-        },
-        {
-          "equipment": [
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Mitts",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
-          ],
-          "equipment_key": "Oscilio, Scion of the Third Age + Seeker's Mitts + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 8,
-          "wins": 5,
-          "wr": 62.5
+          "equipment_key": "Seeker's Leggings + Seeker's Mitts",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 6,
+          "wr": 60.0
         },
         {
           "equipment": [
             "Constella Waves",
-            "Laced Lightning",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Gilet",
-            "Seeker's Hood",
-            "Volzar, Meteor Storm"
+            "Helm of Astral Sanctuary",
+            "Robe of Astral Sanctuary",
+            "Seeker's Leggings"
           ],
-          "equipment_key": "Constella Waves + Laced Lightning + Oscilio, Scion of the Third Age + Seeker's Gilet + Seeker's Hood + Volzar, Meteor Storm",
+          "equipment_key": "Constella Waves + Helm of Astral Sanctuary + Robe of Astral Sanctuary + Seeker's Leggings",
           "count": 4,
           "label": "4+",
-          "games": 8,
-          "wins": 4,
+          "games": 10,
+          "wins": 5,
           "wr": 50.0
         },
         {
           "equipment": [
-            "Boots of Astral Sanctuary",
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Mitts",
-            "Volzar, Meteor Storm"
+            "Boots of Astral Sanctuary"
           ],
-          "equipment_key": "Boots of Astral Sanctuary + Oscilio, Scion of the Third Age + Seeker's Mitts + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 6,
-          "wr": 85.7
+          "equipment_key": "Boots of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 10,
+          "wins": 4,
+          "wr": 40.0
         },
         {
           "equipment": [
-            "Oscilio, Scion of the Third Age",
-            "Seeker's Hood",
-            "Starflow Robes",
-            "Volzar, Meteor Storm"
+            "Boots of Astral Sanctuary",
+            "Constella Waves",
+            "Robe of Astral Sanctuary"
           ],
-          "equipment_key": "Oscilio, Scion of the Third Age + Seeker's Hood + Starflow Robes + Volzar, Meteor Storm",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 6,
-          "wr": 85.7
+          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Robe of Astral Sanctuary",
+          "count": 3,
+          "label": "3",
+          "games": 10,
+          "wins": 4,
+          "wr": 40.0
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Constella Waves"
+          ],
+          "equipment_key": "Constella Tiara + Constella Waves",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 3,
+          "wr": 30.0
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Constella Waves",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Constella Waves + Helm of Astral Sanctuary",
+          "count": 3,
+          "label": "3",
+          "games": 9,
+          "wins": 7,
+          "wr": 77.8
         }
       ],
       "aurora_emissary_of_lightning": [
         {
+          "equipment": [],
+          "equipment_key": "No equipment",
+          "count": 0,
+          "label": "0",
+          "games": 69,
+          "wins": 43,
+          "wr": 62.3
+        },
+        {
           "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail"
+            "Snap Fingers"
           ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail",
+          "equipment_key": "Snap Fingers",
+          "count": 1,
+          "label": "1",
+          "games": 51,
+          "wins": 36,
+          "wr": 70.6
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary + Snap Fingers",
           "count": 2,
           "label": "2",
-          "games": 60,
-          "wins": 38,
-          "wr": 63.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Snap Fingers",
-          "count": 3,
-          "label": "3",
-          "games": 45,
-          "wins": 31,
-          "wr": 68.9
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
           "games": 34,
           "wins": 23,
           "wr": 67.6
         },
         {
           "equipment": [
-            "Aurora, Emissary of Lightning",
             "Laced Lightning",
-            "Scorpio, Comet Tail",
             "Snap Fingers"
           ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 27,
-          "wins": 19,
-          "wr": 70.4
+          "equipment_key": "Laced Lightning + Snap Fingers",
+          "count": 2,
+          "label": "2",
+          "games": 29,
+          "wins": 20,
+          "wr": 69.0
         },
         {
           "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
+            "Gloves of Astral Sanctuary"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 22,
+          "wins": 13,
+          "wr": 59.1
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Laced Lightning"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Laced Lightning",
+          "count": 2,
+          "label": "2",
+          "games": 21,
+          "wins": 11,
+          "wr": 52.4
+        },
+        {
+          "equipment": [
+            "Laced Lightning"
+          ],
+          "equipment_key": "Laced Lightning",
+          "count": 1,
+          "label": "1",
+          "games": 21,
+          "wins": 8,
+          "wr": 38.1
+        },
+        {
+          "equipment": [
             "Starflow Robes"
           ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Starflow Robes",
-          "count": 3,
-          "label": "3",
+          "equipment_key": "Starflow Robes",
+          "count": 1,
+          "label": "1",
           "games": 20,
           "wins": 8,
           "wr": 40.0
         },
         {
           "equipment": [
-            "Aurora, Emissary of Lightning",
             "Gloves of Astral Sanctuary",
-            "Laced Lightning",
-            "Scorpio, Comet Tail"
+            "Helm of Astral Sanctuary"
           ],
-          "equipment_key": "Aurora, Emissary of Lightning + Gloves of Astral Sanctuary + Laced Lightning + Scorpio, Comet Tail",
-          "count": 4,
-          "label": "4+",
-          "games": 19,
-          "wins": 9,
-          "wr": 47.4
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail",
-          "count": 3,
-          "label": "3",
-          "games": 19,
-          "wins": 6,
-          "wr": 31.6
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Gloves of Astral Sanctuary",
-            "Scorpio, Comet Tail"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Gloves of Astral Sanctuary + Scorpio, Comet Tail",
-          "count": 3,
-          "label": "3",
+          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
           "games": 18,
-          "wins": 11,
-          "wr": 61.1
+          "wins": 7,
+          "wr": 38.9
         },
         {
           "equipment": [
-            "Aurora, Emissary of Lightning",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 17,
+          "wins": 13,
+          "wr": 76.5
+        },
+        {
+          "equipment": [
             "Boots of Astral Sanctuary",
-            "Scorpio, Comet Tail",
             "Snap Fingers"
           ],
-          "equipment_key": "Aurora, Emissary of Lightning + Boots of Astral Sanctuary + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Boots of Astral Sanctuary + Snap Fingers",
+          "count": 2,
+          "label": "2",
           "games": 17,
           "wins": 11,
           "wr": 64.7
         },
         {
           "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Gloves of Astral Sanctuary",
-            "Helm of Astral Sanctuary",
-            "Scorpio, Comet Tail"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Scorpio, Comet Tail",
-          "count": 4,
-          "label": "4+",
-          "games": 17,
-          "wins": 6,
-          "wr": 35.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Scorpio, Comet Tail"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Scorpio, Comet Tail",
-          "count": 3,
-          "label": "3",
-          "games": 15,
-          "wins": 11,
-          "wr": 73.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
             "Snap Fingers",
             "Starflow Robes"
           ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Snap Fingers + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 15,
-          "wins": 8,
-          "wr": 53.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Snap Fingers",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Snap Fingers + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 14,
-          "wins": 9,
-          "wr": 64.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Hood",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Seeker's Hood + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 14,
-          "wins": 6,
-          "wr": 42.9
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Constella Tiara",
-            "Scorpio, Comet Tail",
-            "Snap Fingers",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Constella Tiara + Scorpio, Comet Tail + Snap Fingers + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 13,
-          "wins": 5,
-          "wr": 38.5
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Seeker's Gilet + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 10,
-          "wr": 83.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Robe of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Robe of Astral Sanctuary + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 9,
-          "wr": 75.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Robe of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Robe of Astral Sanctuary + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 8,
-          "wr": 66.7
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Robe of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Seeker's Leggings",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Robe of Astral Sanctuary + Scorpio, Comet Tail + Seeker's Leggings + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 12,
-          "wins": 6,
-          "wr": 50.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Constella Tiara",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Constella Tiara + Scorpio, Comet Tail + Seeker's Gilet + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 11,
-          "wins": 7,
-          "wr": 63.6
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Constella Tiara",
-            "Scorpio, Comet Tail"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Constella Tiara + Scorpio, Comet Tail",
-          "count": 3,
-          "label": "3",
-          "games": 11,
-          "wins": 6,
-          "wr": 54.5
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Gloves of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Gloves of Astral Sanctuary + Scorpio, Comet Tail + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 11,
-          "wins": 5,
-          "wr": 45.5
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Seeker's Hood",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Seeker's Gilet + Seeker's Hood + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 11,
-          "wins": 5,
-          "wr": 45.5
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Constella Tiara",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Constella Tiara + Laced Lightning + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 7,
-          "wr": 70.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Constella Tiara",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Constella Tiara + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 7,
-          "wr": 70.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Snap Fingers",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Scorpio, Comet Tail + Snap Fingers + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 7,
-          "wr": 70.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Leggings",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Seeker's Leggings + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 6,
-          "wr": 60.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Laced Lightning + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 5,
-          "wr": 50.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Gloves of Astral Sanctuary",
-            "Helm of Astral Sanctuary",
-            "Robe of Astral Sanctuary",
-            "Scorpio, Comet Tail"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Robe of Astral Sanctuary + Scorpio, Comet Tail",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 4,
-          "wr": 40.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Laced Lightning + Scorpio, Comet Tail + Seeker's Gilet + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 3,
-          "wr": 30.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Seeker's Gilet",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 3,
-          "wr": 30.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Mitts"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Seeker's Mitts",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 3,
-          "wr": 30.0
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Seeker's Gilet",
-          "count": 3,
-          "label": "3",
-          "games": 9,
-          "wins": 7,
-          "wr": 77.8
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Hood",
-            "Snap Fingers",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Seeker's Hood + Snap Fingers + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 7,
-          "wr": 77.8
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Scorpio, Comet Tail + Seeker's Gilet + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 6,
-          "wr": 66.7
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Gloves of Astral Sanctuary",
-            "Helm of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Scorpio, Comet Tail + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 4,
-          "wr": 44.4
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Laced Lightning",
-            "Robe of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Laced Lightning + Robe of Astral Sanctuary + Scorpio, Comet Tail + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 4,
-          "wr": 44.4
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Helm of Astral Sanctuary",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Helm of Astral Sanctuary + Scorpio, Comet Tail + Seeker's Gilet + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 3,
-          "wr": 33.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Starflow Robes"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Laced Lightning + Scorpio, Comet Tail + Starflow Robes",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 3,
-          "wr": 33.3
-        },
-        {
-          "equipment": [
-            "Aurora, Emissary of Lightning",
-            "Constella Tiara",
-            "Laced Lightning",
-            "Scorpio, Comet Tail",
-            "Seeker's Gilet",
-            "Snap Fingers"
-          ],
-          "equipment_key": "Aurora, Emissary of Lightning + Constella Tiara + Laced Lightning + Scorpio, Comet Tail + Seeker's Gilet + Snap Fingers",
-          "count": 4,
-          "label": "4+",
-          "games": 9,
-          "wins": 2,
-          "wr": 22.2
-        }
-      ],
-      "zyggy": [
-        {
-          "equipment": [
-            "Aphrodias",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Zyggy",
+          "equipment_key": "Snap Fingers + Starflow Robes",
           "count": 2,
           "label": "2",
-          "games": 34,
-          "wins": 26,
-          "wr": 76.5
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Fingers of Fragmentation",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Fingers of Fragmentation + Zyggy",
-          "count": 3,
-          "label": "3",
-          "games": 26,
-          "wins": 19,
-          "wr": 73.1
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Constella Tiara",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Constella Tiara + Zyggy",
-          "count": 3,
-          "label": "3",
-          "games": 20,
-          "wins": 12,
-          "wr": 60.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Robe of Astral Sanctuary + Zyggy",
-          "count": 3,
-          "label": "3",
-          "games": 17,
-          "wins": 7,
-          "wr": 41.2
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Starflow Robes",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Starflow Robes + Zyggy",
-          "count": 3,
-          "label": "3",
           "games": 16,
           "wins": 9,
           "wr": 56.2
         },
         {
           "equipment": [
-            "Aphrodias",
             "Laced Lightning",
-            "Zyggy"
+            "Snap Fingers",
+            "Starflow Robes"
           ],
-          "equipment_key": "Aphrodias + Laced Lightning + Zyggy",
+          "equipment_key": "Laced Lightning + Snap Fingers + Starflow Robes",
           "count": 3,
           "label": "3",
-          "games": 16,
-          "wins": 4,
-          "wr": 25.0
+          "games": 15,
+          "wins": 10,
+          "wr": 66.7
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Constella Tiara",
-            "Fingers of Fragmentation",
-            "Zyggy"
+            "Seeker's Hood",
+            "Snap Fingers"
           ],
-          "equipment_key": "Aphrodias + Constella Tiara + Fingers of Fragmentation + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 14,
-          "wins": 7,
-          "wr": 50.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Gloves of Astral Sanctuary",
-            "Helm of Astral Sanctuary",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 13,
+          "equipment_key": "Seeker's Hood + Snap Fingers",
+          "count": 2,
+          "label": "2",
+          "games": 15,
           "wins": 6,
-          "wr": 46.2
+          "wr": 40.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Constella Tiara",
-            "Fingers of Fragmentation",
-            "Seeker's Gilet",
-            "Zyggy"
+            "Robe of Astral Sanctuary",
+            "Snap Fingers"
           ],
-          "equipment_key": "Aphrodias + Constella Tiara + Fingers of Fragmentation + Seeker's Gilet + Zyggy",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Robe of Astral Sanctuary + Snap Fingers",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 10,
+          "wr": 71.4
+        },
+        {
+          "equipment": [
+            "Seeker's Leggings",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Seeker's Leggings + Snap Fingers",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 6,
+          "wr": 42.9
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Snap Fingers",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Constella Tiara + Snap Fingers + Starflow Robes",
+          "count": 3,
+          "label": "3",
+          "games": 13,
+          "wins": 5,
+          "wr": 38.5
+        },
+        {
+          "equipment": [
+            "Laced Lightning",
+            "Seeker's Gilet",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Laced Lightning + Seeker's Gilet + Snap Fingers",
+          "count": 3,
+          "label": "3",
+          "games": 12,
+          "wins": 10,
+          "wr": 83.3
+        },
+        {
+          "equipment": [
+            "Laced Lightning",
+            "Robe of Astral Sanctuary",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Laced Lightning + Robe of Astral Sanctuary + Snap Fingers",
+          "count": 3,
+          "label": "3",
           "games": 12,
           "wins": 9,
           "wr": 75.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Boots of Astral Sanctuary",
-            "Seeker's Gilet",
-            "Zyggy"
+            "Constella Tiara",
+            "Snap Fingers"
           ],
-          "equipment_key": "Aphrodias + Boots of Astral Sanctuary + Seeker's Gilet + Zyggy",
+          "equipment_key": "Constella Tiara + Snap Fingers",
+          "count": 2,
+          "label": "2",
+          "games": 12,
+          "wins": 8,
+          "wr": 66.7
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary",
+            "Snap Fingers",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary + Snap Fingers + Starflow Robes",
+          "count": 3,
+          "label": "3",
+          "games": 12,
+          "wins": 8,
+          "wr": 66.7
+        },
+        {
+          "equipment": [
+            "Constella Tiara"
+          ],
+          "equipment_key": "Constella Tiara",
+          "count": 1,
+          "label": "1",
+          "games": 12,
+          "wins": 6,
+          "wr": 50.0
+        },
+        {
+          "equipment": [
+            "Robe of Astral Sanctuary",
+            "Seeker's Leggings",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Robe of Astral Sanctuary + Seeker's Leggings + Snap Fingers",
+          "count": 3,
+          "label": "3",
+          "games": 12,
+          "wins": 6,
+          "wr": 50.0
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 12,
+          "wins": 5,
+          "wr": 41.7
+        },
+        {
+          "equipment": [
+            "Laced Lightning",
+            "Seeker's Gilet",
+            "Seeker's Hood",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Laced Lightning + Seeker's Gilet + Seeker's Hood + Snap Fingers",
           "count": 4,
           "label": "4+",
+          "games": 12,
+          "wins": 5,
+          "wr": 41.7
+        },
+        {
+          "equipment": [
+            "Laced Lightning",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Laced Lightning + Seeker's Gilet",
+          "count": 2,
+          "label": "2",
+          "games": 12,
+          "wins": 3,
+          "wr": 25.0
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Seeker's Gilet",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Constella Tiara + Seeker's Gilet + Snap Fingers",
+          "count": 3,
+          "label": "3",
           "games": 11,
           "wins": 7,
           "wr": 63.6
         },
         {
           "equipment": [
-            "Aphrodias",
             "Helm of Astral Sanctuary",
-            "Zyggy"
+            "Laced Lightning",
+            "Snap Fingers"
           ],
-          "equipment_key": "Aphrodias + Helm of Astral Sanctuary + Zyggy",
+          "equipment_key": "Helm of Astral Sanctuary + Laced Lightning + Snap Fingers",
           "count": 3,
           "label": "3",
           "games": 11,
-          "wins": 6,
-          "wr": 54.5
+          "wins": 5,
+          "wr": 45.5
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Fingers of Fragmentation",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
+            "Gloves of Astral Sanctuary",
+            "Helm of Astral Sanctuary",
+            "Robe of Astral Sanctuary"
           ],
-          "equipment_key": "Aphrodias + Fingers of Fragmentation + Robe of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 9,
-          "wr": 90.0
+          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Robe of Astral Sanctuary",
+          "count": 3,
+          "label": "3",
+          "games": 11,
+          "wins": 4,
+          "wr": 36.4
         },
         {
           "equipment": [
-            "Aphrodias",
+            "Helm of Astral Sanctuary",
             "Laced Lightning",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
+            "Seeker's Gilet",
+            "Snap Fingers"
           ],
-          "equipment_key": "Aphrodias + Laced Lightning + Robe of Astral Sanctuary + Zyggy",
+          "equipment_key": "Helm of Astral Sanctuary + Laced Lightning + Seeker's Gilet + Snap Fingers",
           "count": 4,
           "label": "4+",
+          "games": 11,
+          "wins": 4,
+          "wr": 36.4
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Laced Lightning",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Constella Tiara + Laced Lightning + Snap Fingers",
+          "count": 3,
+          "label": "3",
           "games": 10,
           "wins": 7,
           "wr": 70.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Fingers of Fragmentation",
-            "Starflow Robes",
-            "Zyggy"
+            "Gloves of Astral Sanctuary",
+            "Helm of Astral Sanctuary",
+            "Starflow Robes"
           ],
-          "equipment_key": "Aphrodias + Fingers of Fragmentation + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 10,
-          "wins": 6,
-          "wr": 60.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Seeker's Gilet",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Seeker's Gilet + Zyggy",
+          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Starflow Robes",
           "count": 3,
           "label": "3",
-          "games": 10,
-          "wins": 5,
-          "wr": 50.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Boots of Astral Sanctuary",
-            "Starflow Robes",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Boots of Astral Sanctuary + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
           "games": 10,
           "wins": 4,
           "wr": 40.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Helm of Astral Sanctuary",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
+            "Laced Lightning",
+            "Seeker's Mitts"
           ],
-          "equipment_key": "Aphrodias + Helm of Astral Sanctuary + Robe of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Laced Lightning + Seeker's Mitts",
+          "count": 2,
+          "label": "2",
           "games": 10,
           "wins": 3,
           "wr": 30.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Fingers of Fragmentation",
             "Laced Lightning",
-            "Zyggy"
+            "Starflow Robes"
           ],
-          "equipment_key": "Aphrodias + Fingers of Fragmentation + Laced Lightning + Zyggy",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Laced Lightning + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 3,
+          "wr": 30.0
+        },
+        {
+          "equipment": [
+            "Seeker's Hood"
+          ],
+          "equipment_key": "Seeker's Hood",
+          "count": 1,
+          "label": "1",
+          "games": 10,
+          "wins": 2,
+          "wr": 20.0
+        },
+        {
+          "equipment": [
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Seeker's Gilet",
+          "count": 1,
+          "label": "1",
+          "games": 9,
+          "wins": 7,
+          "wr": 77.8
+        },
+        {
+          "equipment": [
+            "Seeker's Hood",
+            "Snap Fingers",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Seeker's Hood + Snap Fingers + Starflow Robes",
+          "count": 3,
+          "label": "3",
+          "games": 9,
+          "wins": 7,
+          "wr": 77.8
+        },
+        {
+          "equipment": [
+            "Seeker's Gilet",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Seeker's Gilet + Snap Fingers",
+          "count": 2,
+          "label": "2",
+          "games": 9,
+          "wins": 6,
+          "wr": 66.7
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Constella Tiara",
+            "Snap Fingers"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Constella Tiara + Snap Fingers",
+          "count": 3,
+          "label": "3",
           "games": 9,
           "wins": 5,
           "wr": 55.6
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Seeker's Hood",
-            "Starflow Robes",
-            "Zyggy"
+            "Helm of Astral Sanctuary",
+            "Laced Lightning",
+            "Robe of Astral Sanctuary",
+            "Snap Fingers"
           ],
-          "equipment_key": "Aphrodias + Seeker's Hood + Starflow Robes + Zyggy",
+          "equipment_key": "Helm of Astral Sanctuary + Laced Lightning + Robe of Astral Sanctuary + Snap Fingers",
           "count": 4,
           "label": "4+",
+          "games": 9,
+          "wins": 4,
+          "wr": 44.4
+        }
+      ],
+      "zyggy": [
+        {
+          "equipment": [],
+          "equipment_key": "No equipment",
+          "count": 0,
+          "label": "0",
+          "games": 42,
+          "wins": 29,
+          "wr": 69.0
+        },
+        {
+          "equipment": [
+            "Fingers of Fragmentation"
+          ],
+          "equipment_key": "Fingers of Fragmentation",
+          "count": 1,
+          "label": "1",
+          "games": 30,
+          "wins": 21,
+          "wr": 70.0
+        },
+        {
+          "equipment": [
+            "Constella Tiara"
+          ],
+          "equipment_key": "Constella Tiara",
+          "count": 1,
+          "label": "1",
+          "games": 26,
+          "wins": 14,
+          "wr": 53.8
+        },
+        {
+          "equipment": [
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Robe of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 18,
+          "wins": 8,
+          "wr": 44.4
+        },
+        {
+          "equipment": [
+            "Laced Lightning"
+          ],
+          "equipment_key": "Laced Lightning",
+          "count": 1,
+          "label": "1",
+          "games": 18,
+          "wins": 5,
+          "wr": 27.8
+        },
+        {
+          "equipment": [
+            "Starflow Robes"
+          ],
+          "equipment_key": "Starflow Robes",
+          "count": 1,
+          "label": "1",
+          "games": 16,
+          "wins": 9,
+          "wr": 56.2
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Fingers of Fragmentation"
+          ],
+          "equipment_key": "Constella Tiara + Fingers of Fragmentation",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 7,
+          "wr": 50.0
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 14,
+          "wins": 6,
+          "wr": 42.9
+        },
+        {
+          "equipment": [
+            "Laced Lightning",
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Laced Lightning + Robe of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 13,
+          "wins": 7,
+          "wr": 53.8
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 13,
+          "wins": 6,
+          "wr": 46.2
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Fingers of Fragmentation",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Constella Tiara + Fingers of Fragmentation + Seeker's Gilet",
+          "count": 3,
+          "label": "3",
+          "games": 12,
+          "wins": 9,
+          "wr": 75.0
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary",
+          "count": 1,
+          "label": "1",
+          "games": 12,
+          "wins": 7,
+          "wr": 58.3
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Seeker's Gilet",
+          "count": 2,
+          "label": "2",
+          "games": 12,
+          "wins": 7,
+          "wr": 58.3
+        },
+        {
+          "equipment": [
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Seeker's Gilet",
+          "count": 1,
+          "label": "1",
+          "games": 12,
+          "wins": 6,
+          "wr": 50.0
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary",
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary + Robe of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 12,
+          "wins": 5,
+          "wr": 41.7
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Robe of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 12,
+          "wins": 3,
+          "wr": 25.0
+        },
+        {
+          "equipment": [
+            "Fingers of Fragmentation",
+            "Robe of Astral Sanctuary"
+          ],
+          "equipment_key": "Fingers of Fragmentation + Robe of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 11,
+          "wins": 9,
+          "wr": 81.8
+        },
+        {
+          "equipment": [
+            "Fingers of Fragmentation",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Fingers of Fragmentation + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 11,
+          "wins": 6,
+          "wr": 54.5
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 11,
+          "wins": 4,
+          "wr": 36.4
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 7,
+          "wr": 70.0
+        },
+        {
+          "equipment": [
+            "Fingers of Fragmentation",
+            "Seeker's Leggings"
+          ],
+          "equipment_key": "Fingers of Fragmentation + Seeker's Leggings",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 6,
+          "wr": 60.0
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary",
+            "Seeker's Leggings"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary + Seeker's Leggings",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 6,
+          "wr": 60.0
+        },
+        {
+          "equipment": [
+            "Fingers of Fragmentation",
+            "Laced Lightning"
+          ],
+          "equipment_key": "Fingers of Fragmentation + Laced Lightning",
+          "count": 2,
+          "label": "2",
+          "games": 10,
+          "wins": 5,
+          "wr": 50.0
+        },
+        {
+          "equipment": [
+            "Helm of Astral Sanctuary",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Helm of Astral Sanctuary + Starflow Robes",
+          "count": 2,
+          "label": "2",
+          "games": 9,
+          "wins": 6,
+          "wr": 66.7
+        },
+        {
+          "equipment": [
+            "Seeker's Hood",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Seeker's Hood + Starflow Robes",
+          "count": 2,
+          "label": "2",
           "games": 9,
           "wins": 3,
           "wr": 33.3
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Helm of Astral Sanctuary",
-            "Starflow Robes",
-            "Zyggy"
+            "Seeker's Hood"
           ],
-          "equipment_key": "Aphrodias + Helm of Astral Sanctuary + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Seeker's Hood",
+          "count": 1,
+          "label": "1",
+          "games": 9,
+          "wins": 2,
+          "wr": 22.2
+        },
+        {
+          "equipment": [
+            "Seeker's Leggings",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Seeker's Leggings + Starflow Robes",
+          "count": 2,
+          "label": "2",
           "games": 8,
           "wins": 6,
           "wr": 75.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Seeker's Leggings",
-            "Starflow Robes",
-            "Zyggy"
+            "Gloves of Astral Sanctuary",
+            "Helm of Astral Sanctuary",
+            "Robe of Astral Sanctuary"
           ],
-          "equipment_key": "Aphrodias + Seeker's Leggings + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 8,
-          "wins": 6,
-          "wr": 75.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Fingers of Fragmentation",
-            "Seeker's Leggings",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Fingers of Fragmentation + Seeker's Leggings + Zyggy",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Robe of Astral Sanctuary",
+          "count": 3,
+          "label": "3",
           "games": 8,
           "wins": 5,
           "wr": 62.5
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Helm of Astral Sanctuary",
-            "Seeker's Leggings",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Helm of Astral Sanctuary + Seeker's Leggings + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 8,
-          "wins": 5,
-          "wr": 62.5
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Boots of Astral Sanctuary",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Boots of Astral Sanctuary + Robe of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 8,
-          "wins": 2,
-          "wr": 25.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Seeker's Hood",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Seeker's Hood + Zyggy",
-          "count": 3,
-          "label": "3",
-          "games": 8,
-          "wins": 2,
-          "wr": 25.0
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Boots of Astral Sanctuary",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Boots of Astral Sanctuary + Zyggy",
-          "count": 3,
-          "label": "3",
-          "games": 7,
-          "wins": 6,
-          "wr": 85.7
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Seeker's Mitts",
-            "Starflow Robes",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Seeker's Mitts + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 6,
-          "wr": 85.7
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Constella Tiara",
-            "Gloves of Astral Sanctuary",
-            "Seeker's Gilet",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Constella Tiara + Gloves of Astral Sanctuary + Seeker's Gilet + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 5,
-          "wr": 71.4
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Gloves of Astral Sanctuary",
-            "Starflow Robes",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Gloves of Astral Sanctuary + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 5,
-          "wr": 71.4
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Constella Tiara",
-            "Gloves of Astral Sanctuary",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Constella Tiara + Gloves of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 4,
-          "wr": 57.1
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Gloves of Astral Sanctuary",
-            "Helm of Astral Sanctuary",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Gloves of Astral Sanctuary + Helm of Astral Sanctuary + Robe of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 4,
-          "wr": 57.1
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Gloves of Astral Sanctuary",
-            "Seeker's Gilet",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Gloves of Astral Sanctuary + Seeker's Gilet + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 4,
-          "wr": 57.1
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Seeker's Gilet",
-            "Seeker's Mitts",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Seeker's Gilet + Seeker's Mitts + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 4,
-          "wr": 57.1
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Boots of Astral Sanctuary",
-            "Constella Tiara",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Boots of Astral Sanctuary + Constella Tiara + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 3,
-          "wr": 42.9
-        },
-        {
-          "equipment": [
-            "Aphrodias",
             "Constella Tiara",
             "Fingers of Fragmentation",
-            "Robe of Astral Sanctuary",
-            "Zyggy"
+            "Robe of Astral Sanctuary"
           ],
-          "equipment_key": "Aphrodias + Constella Tiara + Fingers of Fragmentation + Robe of Astral Sanctuary + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 3,
-          "wr": 42.9
+          "equipment_key": "Constella Tiara + Fingers of Fragmentation + Robe of Astral Sanctuary",
+          "count": 3,
+          "label": "3",
+          "games": 8,
+          "wins": 4,
+          "wr": 50.0
         },
         {
           "equipment": [
-            "Aphrodias",
             "Constella Tiara",
-            "Laced Lightning",
-            "Zyggy"
+            "Gloves of Astral Sanctuary"
           ],
-          "equipment_key": "Aphrodias + Constella Tiara + Laced Lightning + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 3,
-          "wr": 42.9
+          "equipment_key": "Constella Tiara + Gloves of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 8,
+          "wins": 4,
+          "wr": 50.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Gloves of Astral Sanctuary",
-            "Seeker's Hood",
-            "Seeker's Leggings",
-            "Starflow Robes",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Gloves of Astral Sanctuary + Seeker's Hood + Seeker's Leggings + Starflow Robes + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 3,
-          "wr": 42.9
-        },
-        {
-          "equipment": [
-            "Aphrodias",
-            "Helm of Astral Sanctuary",
             "Seeker's Gilet",
-            "Seeker's Leggings",
-            "Zyggy"
+            "Seeker's Mitts"
           ],
-          "equipment_key": "Aphrodias + Helm of Astral Sanctuary + Seeker's Gilet + Seeker's Leggings + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 3,
-          "wr": 42.9
+          "equipment_key": "Seeker's Gilet + Seeker's Mitts",
+          "count": 2,
+          "label": "2",
+          "games": 8,
+          "wins": 4,
+          "wr": 50.0
         },
         {
           "equipment": [
-            "Aphrodias",
-            "Constella Tiara",
-            "Laced Lightning",
-            "Seeker's Gilet",
-            "Zyggy"
-          ],
-          "equipment_key": "Aphrodias + Constella Tiara + Laced Lightning + Seeker's Gilet + Zyggy",
-          "count": 4,
-          "label": "4+",
-          "games": 7,
-          "wins": 2,
-          "wr": 28.6
-        },
-        {
-          "equipment": [
-            "Aphrodias",
             "Boots of Astral Sanctuary",
-            "Seeker's Hood",
-            "Zyggy"
+            "Constella Tiara"
           ],
-          "equipment_key": "Aphrodias + Boots of Astral Sanctuary + Seeker's Hood + Zyggy",
-          "count": 4,
-          "label": "4+",
+          "equipment_key": "Boots of Astral Sanctuary + Constella Tiara",
+          "count": 2,
+          "label": "2",
+          "games": 8,
+          "wins": 3,
+          "wr": 37.5
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Laced Lightning"
+          ],
+          "equipment_key": "Constella Tiara + Laced Lightning",
+          "count": 2,
+          "label": "2",
+          "games": 8,
+          "wins": 3,
+          "wr": 37.5
+        },
+        {
+          "equipment": [
+            "Seeker's Gilet",
+            "Seeker's Leggings",
+            "Seeker's Mitts"
+          ],
+          "equipment_key": "Seeker's Gilet + Seeker's Leggings + Seeker's Mitts",
+          "count": 3,
+          "label": "3",
+          "games": 8,
+          "wins": 3,
+          "wr": 37.5
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Helm of Astral Sanctuary"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Helm of Astral Sanctuary",
+          "count": 2,
+          "label": "2",
+          "games": 8,
+          "wins": 2,
+          "wr": 25.0
+        },
+        {
+          "equipment": [
+            "Seeker's Mitts",
+            "Starflow Robes"
+          ],
+          "equipment_key": "Seeker's Mitts + Starflow Robes",
+          "count": 2,
+          "label": "2",
           "games": 7,
-          "wins": 1,
-          "wr": 14.3
+          "wins": 6,
+          "wr": 85.7
+        },
+        {
+          "equipment": [
+            "Boots of Astral Sanctuary",
+            "Fingers of Fragmentation"
+          ],
+          "equipment_key": "Boots of Astral Sanctuary + Fingers of Fragmentation",
+          "count": 2,
+          "label": "2",
+          "games": 7,
+          "wins": 5,
+          "wr": 71.4
+        },
+        {
+          "equipment": [
+            "Constella Tiara",
+            "Gloves of Astral Sanctuary",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Constella Tiara + Gloves of Astral Sanctuary + Seeker's Gilet",
+          "count": 3,
+          "label": "3",
+          "games": 7,
+          "wins": 5,
+          "wr": 71.4
+        },
+        {
+          "equipment": [
+            "Fingers of Fragmentation",
+            "Robe of Astral Sanctuary",
+            "Seeker's Hood"
+          ],
+          "equipment_key": "Fingers of Fragmentation + Robe of Astral Sanctuary + Seeker's Hood",
+          "count": 3,
+          "label": "3",
+          "games": 7,
+          "wins": 4,
+          "wr": 57.1
+        },
+        {
+          "equipment": [
+            "Gloves of Astral Sanctuary",
+            "Seeker's Gilet"
+          ],
+          "equipment_key": "Gloves of Astral Sanctuary + Seeker's Gilet",
+          "count": 2,
+          "label": "2",
+          "games": 7,
+          "wins": 4,
+          "wr": 57.1
         }
       ]
     },

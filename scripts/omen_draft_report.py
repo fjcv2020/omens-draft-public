@@ -57,6 +57,16 @@ MATCHUP_HERO_COLUMNS = (
     ("oscilio_scion_of_the_third_age", "vs Oscilio"),
     ("zyggy", "vs Zyggy"),
 )
+OMENS_WEAPON_IDS = {
+    "aphrodias",
+    "scorpio_comet_tail",
+    "volzar_meteor_storm",
+}
+OMENS_WEAPON_NAMES = {
+    "Aphrodias",
+    "Scorpio, Comet Tail",
+    "Volzar, Meteor Storm",
+}
 
 
 @dataclass(frozen=True)
@@ -167,6 +177,26 @@ def normalize_hero_id(value: object) -> str:
 def display_hero_name(value: object) -> str:
     hero = normalize_hero_id(value)
     return HERO_DISPLAY_NAMES.get(hero, hero.replace("_", " "))
+
+
+def arena_exclusion_name(value: object) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", str(value or "").lower()).strip()
+
+
+def is_equipment_arena_card(card: dict[str, Any]) -> bool:
+    card_id = str(card.get("id") or "").strip().lower()
+    name = str(card.get("name") or "").strip()
+    excluded_ids = set(HERO_ALIASES) | OMENS_HEROES | OMENS_WEAPON_IDS
+    excluded_names = {
+        *(arena_exclusion_name(name) for name in HERO_DISPLAY_NAMES.values()),
+        *(arena_exclusion_name(name) for name in HERO_ALIASES),
+        *(arena_exclusion_name(name) for name in OMENS_WEAPON_NAMES),
+    }
+    if card_id in excluded_ids:
+        return False
+    if arena_exclusion_name(name) in excluded_names:
+        return False
+    return True
 
 
 def card_results(deck: dict[str, Any]) -> tuple[dict[str, Any], ...]:
@@ -604,6 +634,8 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
 
         seen_equipment: dict[str, dict[str, str]] = {}
         for card in game.arena:
+            if not is_equipment_arena_card(card):
+                continue
             card_id = str(card.get("id") or "").strip()
             if not card_id or card_id in seen_equipment:
                 continue
@@ -809,7 +841,9 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
             "games": len(clean_games),
             "heroes": len({game.hero for game in clean_games if game.hero}),
             "card_games": sum(1 for game in clean_games if game.cards),
-            "equipment_games": sum(1 for game in clean_games if game.arena),
+            "equipment_games": sum(
+                1 for game in clean_games if any(is_equipment_arena_card(card) for card in game.arena)
+            ),
             "method": (
                 "Card priority is inferred from cards present in played decks, not real draft picks. "
                 "Score combines smoothed winrate, sample size, average copies, and played-per-game."

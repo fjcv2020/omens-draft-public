@@ -55,6 +55,8 @@ class OmenDraftReportTests(unittest.TestCase):
                 opp="aurora_emissary_of_lightning",
                 win=True,
                 arena=[
+                    {"id": "zyggy", "name": "Zyggy"},
+                    {"id": "aphrodias", "name": "Aphrodias"},
                     {"id": "cosmo_scroll", "name": "Cosmo, Scroll of Ancestral Tapestry"},
                     {"id": "threadbare_tunic", "name": "Threadbare Tunic"},
                 ],
@@ -63,13 +65,19 @@ class OmenDraftReportTests(unittest.TestCase):
                 hero="zyggy",
                 opp="aurora_emissary_of_lightning",
                 win=False,
-                arena=[{"id": "cosmo_scroll", "name": "Cosmo, Scroll of Ancestral Tapestry"}],
+                arena=[
+                    {"id": "zyggy_starlight", "name": "Zyggy, Starlight"},
+                    {"id": "aphrodias", "name": "Aphrodias"},
+                    {"id": "cosmo_scroll", "name": "Cosmo, Scroll of Ancestral Tapestry"},
+                ],
             ),
             self.seat(
                 hero="aurora_emissary_of_lightning",
                 opp="zyggy",
                 win=True,
                 arena=[
+                    {"id": "aurora_emissary_of_lightning", "name": "Aurora, Emissary of Lightning"},
+                    {"id": "scorpio_comet_tail", "name": "Scorpio, Comet Tail"},
                     {"id": "arcane_seeds", "name": "Arcane Seeds"},
                     {"id": "cosmo_scroll", "name": "Cosmo, Scroll of Ancestral Tapestry"},
                     {"id": "threadbare_tunic", "name": "Threadbare Tunic"},
@@ -85,6 +93,14 @@ class OmenDraftReportTests(unittest.TestCase):
         self.assertEqual(zyggy_counts[1], {"count": 1, "label": "1", "games": 1, "wins": 0, "wr": 0.0})
         self.assertEqual(zyggy_counts[2], {"count": 2, "label": "2", "games": 1, "wins": 1, "wr": 100.0})
         self.assertEqual(analytics["hero_equipment_count_wr"]["aurora_emissary_of_lightning"][4]["label"], "4+")
+        self.assertNotIn(
+            "aphrodias",
+            {row["id"] for row in analytics["hero_equipment_cards"]["zyggy"]},
+        )
+        self.assertNotIn(
+            "zyggy",
+            {row["id"] for row in analytics["hero_equipment_cards"]["zyggy"]},
+        )
         self.assertEqual(
             analytics["hero_equipment_cards"]["zyggy"][0]["name"],
             "Cosmo, Scroll of Ancestral Tapestry",
