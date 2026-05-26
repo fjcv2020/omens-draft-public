@@ -535,6 +535,30 @@ def empty_turn_order_stats() -> dict[str, int | float]:
     return {"games": 0, "wins": 0, "wr": 0.0}
 
 
+def equipment_count_bucket(count: int) -> int:
+    return min(4, max(0, count))
+
+
+def equipment_count_label(count: int) -> str:
+    return "4+" if count >= 4 else str(count)
+
+
+def equipment_stats_row(card_id: str, row: dict[str, Any]) -> dict[str, Any]:
+    game_count = int(row.get("games") or 0)
+    wins = int(row.get("wins") or 0)
+    smoothed = ((wins + 1.5) / (game_count + 3)) * 100 if game_count else 0
+    score = smoothed + min(game_count, 80) * 0.18
+    return {
+        "id": card_id,
+        "name": row.get("name") or card_id,
+        "games": game_count,
+        "wins": wins,
+        "wr": pct(wins, game_count),
+        "smoothed_wr": rounded(smoothed),
+        "score": rounded(score),
+    }
+
+
 def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
     clean_games = [game for game in games if game.hero and game.turns > 0 and not game.conceded]
     by_hero_card: dict[str, dict[str, dict[str, Any]]] = defaultdict(dict)
@@ -542,6 +566,9 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
     by_hero_vs_card: dict[str, dict[str, dict[str, dict[str, Any]]]] = defaultdict(lambda: defaultdict(dict))
     by_hero_color_count: dict[str, dict[str, dict[int, Counter[str]]]] = defaultdict(lambda: defaultdict(lambda: defaultdict(Counter)))
     by_hero_color_mix: dict[str, dict[tuple[int, int, int], Counter[str]]] = defaultdict(lambda: defaultdict(Counter))
+    by_hero_equipment_count: dict[str, dict[int, Counter[str]]] = defaultdict(lambda: defaultdict(Counter))
+    by_hero_equipment_card: dict[str, dict[str, dict[str, Any]]] = defaultdict(dict)
+    by_hero_equipment_combo: dict[str, dict[tuple[str, ...], Counter[str]]] = defaultdict(lambda: defaultdict(Counter))
     matchup_stats: Counter[tuple[str, str, str]] = Counter()
     matchup_turn_order_stats: Counter[tuple[str, str, str, str]] = Counter()
     turn_order: dict[str, dict[str, Counter[str]]] = defaultdict(lambda: defaultdict(Counter))
@@ -574,6 +601,32 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
             by_hero_color_mix[game.hero][mix]["games"] += 1
             if game.win:
                 by_hero_color_mix[game.hero][mix]["wins"] += 1
+
+        seen_equipment: dict[str, dict[str, str]] = {}
+        for card in game.arena:
+            card_id = str(card.get("id") or "").strip()
+            if not card_id or card_id in seen_equipment:
+                continue
+            seen_equipment[card_id] = {
+                "id": card_id,
+                "name": str(card.get("name") or card_id).strip() or card_id,
+            }
+        equipment_count = equipment_count_bucket(len(seen_equipment))
+        by_hero_equipment_count[game.hero][equipment_count]["games"] += 1
+        if game.win:
+            by_hero_equipment_count[game.hero][equipment_count]["wins"] += 1
+        combo = tuple(sorted(seen_equipment))
+        by_hero_equipment_combo[game.hero][combo]["games"] += 1
+        by_hero_equipment_combo[game.hero][combo]["equipment"] = [seen_equipment[card_id]["name"] for card_id in combo]
+        if game.win:
+            by_hero_equipment_combo[game.hero][combo]["wins"] += 1
+        for card_id, card in seen_equipment.items():
+            row = by_hero_equipment_card[game.hero].setdefault(
+                card_id,
+                {"name": card["name"], "games": 0, "wins": 0},
+            )
+            row["games"] += 1
+            row["wins"] += 1 if game.win else 0
 
         seen_cards: set[str] = set()
         for card in game.cards:
@@ -613,6 +666,9 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
     vs_hero_cards: dict[str, dict[str, list[dict[str, Any]]]] = {}
     hero_color_count_wr: dict[str, dict[str, list[dict[str, Any]]]] = {}
     hero_color_mix_wr: dict[str, list[dict[str, Any]]] = {}
+    hero_equipment_count_wr: dict[str, list[dict[str, Any]]] = {}
+    hero_equipment_cards: dict[str, list[dict[str, Any]]] = {}
+    hero_equipment_combos: dict[str, list[dict[str, Any]]] = {}
 
     for hero, card_rows in by_hero_card.items():
         rows = []
@@ -683,6 +739,44 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
         rows.sort(key=lambda row: (-int(row["games"]), -float(row["wr"]), int(row["red"]), int(row["yellow"]), int(row["blue"])))
         hero_color_mix_wr[hero] = rows[:40]
 
+    for hero, count_rows in by_hero_equipment_count.items():
+        rows = []
+        for count in range(0, 5):
+            stats = count_rows.get(count, Counter())
+            game_count = int(stats.get("games", 0))
+            wins = int(stats.get("wins", 0))
+            rows.append({
+                "count": count,
+                "label": equipment_count_label(count),
+                "games": game_count,
+                "wins": wins,
+                "wr": pct(wins, game_count),
+            })
+        hero_equipment_count_wr[hero] = rows
+
+    for hero, equipment_rows in by_hero_equipment_card.items():
+        rows = [equipment_stats_row(card_id, row) for card_id, row in equipment_rows.items()]
+        rows.sort(key=lambda row: (-row["games"], -row["score"], -row["wr"], str(row["name"]).lower()))
+        hero_equipment_cards[hero] = rows
+
+    for hero, combo_rows in by_hero_equipment_combo.items():
+        rows = []
+        for card_ids, stats in combo_rows.items():
+            game_count = int(stats.get("games", 0))
+            wins = int(stats.get("wins", 0))
+            equipment = list(stats.get("equipment") or [])
+            rows.append({
+                "equipment": equipment,
+                "equipment_key": " + ".join(equipment) if equipment else "No equipment",
+                "count": equipment_count_bucket(len(card_ids)),
+                "label": equipment_count_label(len(card_ids)),
+                "games": game_count,
+                "wins": wins,
+                "wr": pct(wins, game_count),
+            })
+        rows.sort(key=lambda row: (-int(row["games"]), -float(row["wr"]), str(row["equipment_key"]).lower()))
+        hero_equipment_combos[hero] = rows[:40]
+
     matchups: list[dict[str, Any]] = []
     matchup_matrix: dict[str, dict[str, dict[str, dict[str, int | float]]]] = defaultdict(dict)
     matchup_pairs = sorted({(hero, opp) for hero, opp, _ in matchup_stats if hero and opp})
@@ -715,6 +809,7 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
             "games": len(clean_games),
             "heroes": len({game.hero for game in clean_games if game.hero}),
             "card_games": sum(1 for game in clean_games if game.cards),
+            "equipment_games": sum(1 for game in clean_games if game.arena),
             "method": (
                 "Card priority is inferred from cards present in played decks, not real draft picks. "
                 "Score combines smoothed winrate, sample size, average copies, and played-per-game."
@@ -726,6 +821,9 @@ def build_performance_analytics(games: list[SeatGame]) -> dict[str, Any]:
         "hero_color_wr": hero_color_wr,
         "hero_color_count_wr": hero_color_count_wr,
         "hero_color_mix_wr": hero_color_mix_wr,
+        "hero_equipment_count_wr": hero_equipment_count_wr,
+        "hero_equipment_cards": hero_equipment_cards,
+        "hero_equipment_combos": hero_equipment_combos,
         "matchups": matchups,
         "matchup_matrix": matchup_matrix,
         "first_second": first_second,
@@ -1350,6 +1448,7 @@ def render_html(payload: dict[str, Any]) -> str:
           <button class="segment" data-view="rankings" type="button">Hero Card Rankings</button>
           <button class="segment" data-view="colors" type="button">Colors</button>
           <button class="segment" data-view="colorCounts" type="button">Color Count WR</button>
+          <button class="segment" data-view="equipment" type="button">Equipment & Heroes</button>
           <button class="segment" data-view="matchups" type="button">Matchups</button>
           <button class="segment" data-view="vs" type="button">Vs Hero Cards</button>
           <button class="segment" data-view="cards" type="button">Card Totals</button>
@@ -1389,6 +1488,8 @@ def render_html(payload: dict[str, Any]) -> str:
       <section id="colorsView" class="stack" style="display:none"></section>
 
       <section id="colorCountsView" class="stack" style="display:none"></section>
+
+      <section id="equipmentView" class="stack" style="display:none"></section>
 
       <section id="matchupsView" class="stack" style="display:none"></section>
 
@@ -1448,7 +1549,8 @@ def render_html(payload: dict[str, Any]) -> str:
         metric("analyzed player-games", p.analyzed_player_games),
         metric("analyzed players", p.analyzed_players),
         metric("sessions", p.sessions),
-        metric("card result rows", p.card_result_rows)
+        metric("card result rows", p.card_result_rows),
+        metric("equipment games", report.analytics.summary.equipment_games || 0)
       ].join("");
       qs("#method").innerHTML = esc(report.method);
     }}
@@ -1634,6 +1736,12 @@ def render_html(payload: dict[str, Any]) -> str:
       return `<span class="card-chip" ${{cardAttrs(row)}}>${{esc(row.name || row.id)}}</span><div class="muted">${{esc(row.id || "")}}</div>`;
     }}
 
+    function equipmentComboCell(row) {{
+      const items = row.equipment || [];
+      if (!items.length) return `<span class="muted">No equipment</span>`;
+      return `<div class="mini-list">${{items.map((name) => `<span>${{esc(name)}}</span>`).join("")}}</div>`;
+    }}
+
     const cardRankColumns = [
       {{label: "#", sortKey: "rank", render: (r) => esc(r.rank)}},
       {{label: "Card", sortKey: "name", render: cardCell}},
@@ -1762,6 +1870,61 @@ def render_html(payload: dict[str, Any]) -> str:
       }}).join("") : `<div class="band empty">No color-count data.</div>`;
     }}
 
+    function renderEquipment() {{
+      const analytics = report.analytics || {{}};
+      const counts = analytics.hero_equipment_count_wr || {{}};
+      const cards = analytics.hero_equipment_cards || {{}};
+      const combos = analytics.hero_equipment_combos || {{}};
+      const heroes = selectedAnalyticsHeroes(counts);
+      const equipmentCols = [
+        {{label: "Equipment", sortKey: "name", render: cardCell}},
+        {{label: "Games", key: "games"}},
+        {{label: "Wins", key: "wins"}},
+        {{label: "WR", sortKey: "wr", render: pctCell}},
+        {{label: "Score", key: "score"}}
+      ];
+      const comboCols = [
+        {{label: "Equipment set", sortKey: "equipment_key", render: equipmentComboCell}},
+        {{label: "Count", sortKey: "count", render: (r) => esc(r.label)}},
+        {{label: "Games", key: "games"}},
+        {{label: "WR", sortKey: "wr", render: pctCell}}
+      ];
+      function countBars(rows) {{
+        const visibleRows = (rows || []).filter((row) => Number(row.games || 0) > 0);
+        if (!visibleRows.length) return `<div class="empty">No equipment count data.</div>`;
+        return `<div class="bar-table">${{visibleRows.map((row) => {{
+          const wr = Number(row.wr || 0);
+          const width = wr > 0 ? Math.max(4, Math.round(wr)) : 0;
+          return `<div class="bar-row">
+            <span class="bar-label">${{esc(row.label)}}</span>
+            <span class="bar-track" title="${{esc(row.wr)}}% WR with ${{esc(row.label)}} equipment"><span class="bar-fill" style="width:${{width}}%; background:${{wrColor(wr)}}"></span></span>
+            <span class="nowrap">${{esc(row.wr)}}%</span>
+            <span class="muted">${{esc(row.wins)}}/${{esc(row.games)}}</span>
+          </div>`;
+        }}).join("")}}</div>`;
+      }}
+      qs("#resultCount").textContent = `${{analytics.summary.equipment_games || 0}} clean player-games have arenaCardResults equipment data. Counts are bucketed as 0, 1, 2, 3, and 4+.`;
+      qs("#equipmentView").innerHTML = heroes.length ? heroes.map((hero) => {{
+        const countRows = counts[hero] || [];
+        const equipmentRows = rankedRows(cards[hero] || [], 40);
+        const comboRows = rankedRows(combos[hero] || [], 40);
+        return `<div class="band">
+          <div class="section-title"><h2>${{esc(shortHero(hero))}} Equipment Count WR</h2><span class="muted">arenaCardResults; bar = WR 0-100%</span></div>
+          ${{countBars(countRows)}}
+          <div class="subgrid" style="margin-top:14px">
+            <div>
+              <h3>Equipment by winrate</h3>
+              ${{tableMarkup(equipmentCols, equipmentRows)}}
+            </div>
+            <div>
+              <h3>Most common equipment sets</h3>
+              ${{tableMarkup(comboCols, comboRows)}}
+            </div>
+          </div>
+        </div>`;
+      }}).join("") : `<div class="band empty">No equipment data.</div>`;
+    }}
+
     function renderMatchups() {{
       const analytics = report.analytics || {{}};
       const hero = qs("#heroFilter").value;
@@ -1871,6 +2034,7 @@ def render_html(payload: dict[str, Any]) -> str:
       qs("#rankingsView").style.display = state.view === "rankings" ? "grid" : "none";
       qs("#colorsView").style.display = state.view === "colors" ? "grid" : "none";
       qs("#colorCountsView").style.display = state.view === "colorCounts" ? "grid" : "none";
+      qs("#equipmentView").style.display = state.view === "equipment" ? "grid" : "none";
       qs("#matchupsView").style.display = state.view === "matchups" ? "grid" : "none";
       qs("#vsView").style.display = state.view === "vs" ? "grid" : "none";
       qs("#cardsView").style.display = state.view === "cards" ? "grid" : "none";
@@ -1879,6 +2043,7 @@ def render_html(payload: dict[str, Any]) -> str:
       if (state.view === "rankings") renderRankings();
       if (state.view === "colors") renderColors();
       if (state.view === "colorCounts") renderColorCounts();
+      if (state.view === "equipment") renderEquipment();
       if (state.view === "matchups") renderMatchups();
       if (state.view === "vs") renderVsHero();
       if (state.view === "cards") renderCards();
