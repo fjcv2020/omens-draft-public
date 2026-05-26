@@ -1,0 +1,3584 @@
+[Settings]
+{
+    "showSlots": true,
+    "withReplacement": false,
+    "cardBack": "https://d2h5owxb2ypf43.cloudfront.net/cards/cardback.webp"
+}
+[CustomCards]
+[
+    {
+        "name": "Unwinding Finality (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN004",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN004.webp"
+        }
+    },
+    {
+        "name": "Flicker Reality (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "OMN005",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN005.webp"
+        }
+    },
+    {
+        "name": "Blink of an Eye (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN006",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN006.webp"
+        }
+    },
+    {
+        "name": "Fraying Lifeforce (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN007",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN007.webp"
+        }
+    },
+    {
+        "name": "Scattering Conflux (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN008",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN008.webp"
+        }
+    },
+    {
+        "name": "Polarus Pulse Ray (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN009",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN009.webp"
+        }
+    },
+    {
+        "name": "Polarus Pulse Ray (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN010",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN010.webp"
+        }
+    },
+    {
+        "name": "Polarus Pulse Ray (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN011",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN011.webp"
+        }
+    },
+    {
+        "name": "Corrosive Space Dust (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN012",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN012.webp"
+        }
+    },
+    {
+        "name": "Corrosive Space Dust (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN013",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN013.webp"
+        }
+    },
+    {
+        "name": "Corrosive Space Dust (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN014",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN014.webp"
+        }
+    },
+    {
+        "name": "Cosmic Duality (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN015",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN015.webp"
+        }
+    },
+    {
+        "name": "Cosmic Duality (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN016",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN016.webp"
+        }
+    },
+    {
+        "name": "Cosmic Duality (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN017",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN017.webp"
+        }
+    },
+    {
+        "name": "Ebbing Arcstride (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN018",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN018.webp"
+        }
+    },
+    {
+        "name": "Ebbing Arcstride (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN019",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN019.webp"
+        }
+    },
+    {
+        "name": "Ebbing Arcstride (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN020",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN020.webp"
+        }
+    },
+    {
+        "name": "Pulsing Cardia (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN021",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN021.webp"
+        }
+    },
+    {
+        "name": "Pulsing Cardia (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN022",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN022.webp"
+        }
+    },
+    {
+        "name": "Pulsing Cardia (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN023",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN023.webp"
+        }
+    },
+    {
+        "name": "Shattering Flowtide (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN024",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN024.webp"
+        }
+    },
+    {
+        "name": "Shattering Flowtide (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN025",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN025.webp"
+        }
+    },
+    {
+        "name": "Shattering Flowtide (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN026",
+        "type": "Lightning, Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN026.webp"
+        }
+    },
+    {
+        "name": "Auric Shards (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN027",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN027.webp"
+        }
+    },
+    {
+        "name": "Auric Shards (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN028",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN028.webp"
+        }
+    },
+    {
+        "name": "Auric Shards (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN029",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN029.webp"
+        }
+    },
+    {
+        "name": "Holo Shield (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN030",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN030.webp"
+        }
+    },
+    {
+        "name": "Holo Shield (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN031",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN031.webp"
+        }
+    },
+    {
+        "name": "Holo Shield (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN032",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN032.webp"
+        }
+    },
+    {
+        "name": "Circular Flowtide (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN033",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN033.webp"
+        }
+    },
+    {
+        "name": "Elliptical Conflux (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN034",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN034.webp"
+        }
+    },
+    {
+        "name": "Nebulus Cycle (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN035",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN035.webp"
+        }
+    },
+    {
+        "name": "Crackle from Afar (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN036",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN036.webp"
+        }
+    },
+    {
+        "name": "Fleeing Starbreeze (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN037",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN037.webp"
+        }
+    },
+    {
+        "name": "Nourishing Glow (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN038",
+        "type": "Lightning, Illusionist, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN038.webp"
+        }
+    },
+    {
+        "name": "Fingers of Fragmentation",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN039",
+        "type": "Illusionist, Equipment, Arms",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN039.webp"
+        }
+    },
+    {
+        "name": "Fractal Creation (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "OMN040",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN040.webp"
+        }
+    },
+    {
+        "name": "Clear Conscience (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN041",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN041.webp"
+        }
+    },
+    {
+        "name": "Clear Conscience (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN042",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN042.webp"
+        }
+    },
+    {
+        "name": "Clear Conscience (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN043",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN043.webp"
+        }
+    },
+    {
+        "name": "Erode Authority (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN044",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN044.webp"
+        }
+    },
+    {
+        "name": "Erode Authority (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN045",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN045.webp"
+        }
+    },
+    {
+        "name": "Erode Authority (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN046",
+        "type": "Illusionist, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN046.webp"
+        }
+    },
+    {
+        "name": "Snap Fingers",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN050",
+        "type": "Lightning, Runeblade, Equipment, Arms",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN050.webp"
+        }
+    },
+    {
+        "name": "Tempestuous Kiss (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN051",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN051.webp"
+        }
+    },
+    {
+        "name": "Arcanic Reproach (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "OMN052",
+        "type": "Lightning, Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN052.webp"
+        }
+    },
+    {
+        "name": "Dashing Flashfoot (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN053",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN053.webp"
+        }
+    },
+    {
+        "name": "Electryn Mindmeld (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN054",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN054.webp"
+        }
+    },
+    {
+        "name": "Prophetic Quickstep (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN055",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN055.webp"
+        }
+    },
+    {
+        "name": "Stinging Sprite (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN056",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN056.webp"
+        }
+    },
+    {
+        "name": "Stinging Sprite (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN057",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN057.webp"
+        }
+    },
+    {
+        "name": "Stinging Sprite (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN058",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN058.webp"
+        }
+    },
+    {
+        "name": "Mercurial Skies (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN059",
+        "type": "Lightning, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN059.webp"
+        }
+    },
+    {
+        "name": "Mercurial Skies (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN060",
+        "type": "Lightning, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN060.webp"
+        }
+    },
+    {
+        "name": "Mercurial Skies (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN061",
+        "type": "Lightning, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN061.webp"
+        }
+    },
+    {
+        "name": "Destructive Fleetfoot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN062",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN062.webp"
+        }
+    },
+    {
+        "name": "Destructive Fleetfoot (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN063",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN063.webp"
+        }
+    },
+    {
+        "name": "Destructive Fleetfoot (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN064",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN064.webp"
+        }
+    },
+    {
+        "name": "Path of Same Ends (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN065",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN065.webp"
+        }
+    },
+    {
+        "name": "Path of Same Ends (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN066",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN066.webp"
+        }
+    },
+    {
+        "name": "Path of Same Ends (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN067",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN067.webp"
+        }
+    },
+    {
+        "name": "Rush of Power (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN068",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN068.webp"
+        }
+    },
+    {
+        "name": "Rush of Power (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN069",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN069.webp"
+        }
+    },
+    {
+        "name": "Rush of Power (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN070",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN070.webp"
+        }
+    },
+    {
+        "name": "Singeing Flowstride (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN071",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN071.webp"
+        }
+    },
+    {
+        "name": "Singeing Flowstride (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN072",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN072.webp"
+        }
+    },
+    {
+        "name": "Singeing Flowstride (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN073",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN073.webp"
+        }
+    },
+    {
+        "name": "Stunning Swipe (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN074",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN074.webp"
+        }
+    },
+    {
+        "name": "Stunning Swipe (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN075",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN075.webp"
+        }
+    },
+    {
+        "name": "Stunning Swipe (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN076",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN076.webp"
+        }
+    },
+    {
+        "name": "Voltbound Duality (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN077",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN077.webp"
+        }
+    },
+    {
+        "name": "Voltbound Duality (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN078",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN078.webp"
+        }
+    },
+    {
+        "name": "Voltbound Duality (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN079",
+        "type": "Lightning, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN079.webp"
+        }
+    },
+    {
+        "name": "Electryn Joltstep (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN080",
+        "type": "Lightning, Runelbade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN080.webp"
+        }
+    },
+    {
+        "name": "Electryn Joltstep (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN081",
+        "type": "Lightning, Runelbade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN081.webp"
+        }
+    },
+    {
+        "name": "Electryn Joltstep (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN082",
+        "type": "Lightning, Runelbade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN082.webp"
+        }
+    },
+    {
+        "name": "Quick Succession (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN083",
+        "type": "Lightning, Runelbade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN083.webp"
+        }
+    },
+    {
+        "name": "Quick Succession (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN084",
+        "type": "Lightning, Runelbade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN084.webp"
+        }
+    },
+    {
+        "name": "Quick Succession (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN085",
+        "type": "Lightning, Runelbade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN085.webp"
+        }
+    },
+    {
+        "name": "Caress of the Reaper (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN087",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN087.webp"
+        }
+    },
+    {
+        "name": "Arcanic Cunning (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN088",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN088.webp"
+        }
+    },
+    {
+        "name": "Arcanic Cunning (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN089",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN089.webp"
+        }
+    },
+    {
+        "name": "Arcanic Cunning (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN090",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN090.webp"
+        }
+    },
+    {
+        "name": "Leech Memory (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN091",
+        "type": "Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN091.webp"
+        }
+    },
+    {
+        "name": "Leech Renown (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN092",
+        "type": "Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN092.webp"
+        }
+    },
+    {
+        "name": "Leech Vitality (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN093",
+        "type": "Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN093.webp"
+        }
+    },
+    {
+        "name": "Constella Waves",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN097",
+        "type": "Lightning, Wizard, Equipment, Arms",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN097.webp"
+        }
+    },
+    {
+        "name": "Astral Bridge (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN098",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN098.webp"
+        }
+    },
+    {
+        "name": "Echoflash (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "OMN099",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN099.webp"
+        }
+    },
+    {
+        "name": "Arc Ramp (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN100",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN100.webp"
+        }
+    },
+    {
+        "name": "Arc Ramp (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN101",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN101.webp"
+        }
+    },
+    {
+        "name": "Arc Ramp (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN102",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN102.webp"
+        }
+    },
+    {
+        "name": "Core Reaction (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN103",
+        "type": "Lightning, Wizard, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN103.webp"
+        }
+    },
+    {
+        "name": "Core Reaction (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN104",
+        "type": "Lightning, Wizard, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN104.webp"
+        }
+    },
+    {
+        "name": "Core Reaction (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN105",
+        "type": "Lightning, Wizard, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN105.webp"
+        }
+    },
+    {
+        "name": "Flash Bolt (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN106",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN106.webp"
+        }
+    },
+    {
+        "name": "Flash Bolt (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN107",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN107.webp"
+        }
+    },
+    {
+        "name": "Flash Bolt (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN108",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN108.webp"
+        }
+    },
+    {
+        "name": "Comet Collision (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN109",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN109.webp"
+        }
+    },
+    {
+        "name": "Comet Collision (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN110",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN110.webp"
+        }
+    },
+    {
+        "name": "Comet Collision (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN111",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN111.webp"
+        }
+    },
+    {
+        "name": "Enion Surge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN112",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN112.webp"
+        }
+    },
+    {
+        "name": "Enion Surge (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN113",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN113.webp"
+        }
+    },
+    {
+        "name": "Enion Surge (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN114",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN114.webp"
+        }
+    },
+    {
+        "name": "Lightning Overload (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN115",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN115.webp"
+        }
+    },
+    {
+        "name": "Lightning Overload (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN116",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN116.webp"
+        }
+    },
+    {
+        "name": "Lightning Overload (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN117",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN117.webp"
+        }
+    },
+    {
+        "name": "Meteoric Impact (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN118",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN118.webp"
+        }
+    },
+    {
+        "name": "Meteoric Impact (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN119",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN119.webp"
+        }
+    },
+    {
+        "name": "Meteoric Impact (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN120",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN120.webp"
+        }
+    },
+    {
+        "name": "Nebula Duality (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN121",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN121.webp"
+        }
+    },
+    {
+        "name": "Nebula Duality (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN122",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN122.webp"
+        }
+    },
+    {
+        "name": "Nebula Duality (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN123",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN123.webp"
+        }
+    },
+    {
+        "name": "Tap Lessons Past (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN124",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN124.webp"
+        }
+    },
+    {
+        "name": "Tap Lessons Past (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN125",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN125.webp"
+        }
+    },
+    {
+        "name": "Tap Lessons Past (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN126",
+        "type": "Lightning, Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN126.webp"
+        }
+    },
+    {
+        "name": "Cosmic Suture (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN127",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN127.webp"
+        }
+    },
+    {
+        "name": "Cosmic Suture (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN128",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN128.webp"
+        }
+    },
+    {
+        "name": "Cosmic Suture (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN129",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN129.webp"
+        }
+    },
+    {
+        "name": "Constella Contemplation (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN130",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN130.webp"
+        }
+    },
+    {
+        "name": "Constella Flowslide (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN131",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN131.webp"
+        }
+    },
+    {
+        "name": "Constella Uplift (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN132",
+        "type": "Lightning, Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN132.webp"
+        }
+    },
+    {
+        "name": "Tome of Quandaries (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "OMN133",
+        "type": "Wizard, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN133.webp"
+        }
+    },
+    {
+        "name": "Aethersling (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN134",
+        "type": "Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN134.webp"
+        }
+    },
+    {
+        "name": "Nucleus Aetherbolt (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN135",
+        "type": "Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN135.webp"
+        }
+    },
+    {
+        "name": "Turn to Mindfire (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN136",
+        "type": "Wizard, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN136.webp"
+        }
+    },
+    {
+        "name": "Haven Veil (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN137",
+        "type": "Wizard, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN137.webp"
+        }
+    },
+    {
+        "name": "Haven Veil (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN138",
+        "type": "Wizard, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN138.webp"
+        }
+    },
+    {
+        "name": "Haven Veil (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN139",
+        "type": "Wizard, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN139.webp"
+        }
+    },
+    {
+        "name": "Constella Tiara",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN142",
+        "type": "Lightning, Equipment, Head",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN142.webp"
+        }
+    },
+    {
+        "name": "Starflow Robes",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN143",
+        "type": "Lightning, Equipment, Chest",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN143.webp"
+        }
+    },
+    {
+        "name": "Laced Lightning",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN144",
+        "type": "Lightning, Equipment, Legs",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN144.webp"
+        }
+    },
+    {
+        "name": "Astral Strike (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN145",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN145.webp"
+        }
+    },
+    {
+        "name": "Flowstate Embodiment (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN146",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN146.webp"
+        }
+    },
+    {
+        "name": "Static Shelter (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "OMN147",
+        "type": "Lightning, Defense, Reaction",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN147.webp"
+        }
+    },
+    {
+        "name": "Beckoning Brilliance (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN148",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN148.webp"
+        }
+    },
+    {
+        "name": "Flowshard Elemental (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN149",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN149.webp"
+        }
+    },
+    {
+        "name": "Lightning Form (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN150",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN150.webp"
+        }
+    },
+    {
+        "name": "Visionary of Orbits (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN151",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN151.webp"
+        }
+    },
+    {
+        "name": "Flowing Stormstrike (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN152",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN152.webp"
+        }
+    },
+    {
+        "name": "Meteoric Rise (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN153",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN153.webp"
+        }
+    },
+    {
+        "name": "Voltic Impact (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN154",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN154.webp"
+        }
+    },
+    {
+        "name": "Rift Breaker (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN155",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN155.webp"
+        }
+    },
+    {
+        "name": "Rift Breaker (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN156",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN156.webp"
+        }
+    },
+    {
+        "name": "Rift Breaker (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN157",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN157.webp"
+        }
+    },
+    {
+        "name": "Flow Through (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN158",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN158.webp"
+        }
+    },
+    {
+        "name": "Livewire Press (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN159",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN159.webp"
+        }
+    },
+    {
+        "name": "Astral Assault (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN160",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN160.webp"
+        }
+    },
+    {
+        "name": "Astral Assault (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN161",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN161.webp"
+        }
+    },
+    {
+        "name": "Astral Assault (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN162",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN162.webp"
+        }
+    },
+    {
+        "name": "Electrolyze (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN163",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN163.webp"
+        }
+    },
+    {
+        "name": "Electrolyze (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN164",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN164.webp"
+        }
+    },
+    {
+        "name": "Electrolyze (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN165",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN165.webp"
+        }
+    },
+    {
+        "name": "Flittering Spike (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN166",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN166.webp"
+        }
+    },
+    {
+        "name": "Flittering Spike (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN167",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN167.webp"
+        }
+    },
+    {
+        "name": "Flittering Spike (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN168",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN168.webp"
+        }
+    },
+    {
+        "name": "Glide Through Starlight (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN169",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN169.webp"
+        }
+    },
+    {
+        "name": "Glide Through Starlight (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN170",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN170.webp"
+        }
+    },
+    {
+        "name": "Glide Through Starlight (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN171",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN171.webp"
+        }
+    },
+    {
+        "name": "Heaven's Claws (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN172",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN172.webp"
+        }
+    },
+    {
+        "name": "Heaven's Claws (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN173",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN173.webp"
+        }
+    },
+    {
+        "name": "Heaven's Claws (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN174",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN174.webp"
+        }
+    },
+    {
+        "name": "Stellar Glide (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN175",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN175.webp"
+        }
+    },
+    {
+        "name": "Stellar Glide (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN176",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN176.webp"
+        }
+    },
+    {
+        "name": "Stellar Glide (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN177",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN177.webp"
+        }
+    },
+    {
+        "name": "Volatile Fluxor (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN178",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN178.webp"
+        }
+    },
+    {
+        "name": "Volatile Fluxor (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN179",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN179.webp"
+        }
+    },
+    {
+        "name": "Volatile Fluxor (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN180",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN180.webp"
+        }
+    },
+    {
+        "name": "Flittering Forcefield (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN181",
+        "type": "Lightning, Defense, Reaction",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN181.webp"
+        }
+    },
+    {
+        "name": "Flittering Forcefield (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN182",
+        "type": "Lightning, Defense, Reaction",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN182.webp"
+        }
+    },
+    {
+        "name": "Flittering Forcefield (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN183",
+        "type": "Lightning, Defense, Reaction",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN183.webp"
+        }
+    },
+    {
+        "name": "Calmveil of Volthaven (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN184",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN184.webp"
+        }
+    },
+    {
+        "name": "Calmveil of Volthaven (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN185",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN185.webp"
+        }
+    },
+    {
+        "name": "Calmveil of Volthaven (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN186",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN186.webp"
+        }
+    },
+    {
+        "name": "Cosmic Flare (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN187",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN187.webp"
+        }
+    },
+    {
+        "name": "Starworld Warning (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN188",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN188.webp"
+        }
+    },
+    {
+        "name": "Starlight Road (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN189",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN189.webp"
+        }
+    },
+    {
+        "name": "Stormshard (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN190",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN190.webp"
+        }
+    },
+    {
+        "name": "Stormshatter (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN191",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN191.webp"
+        }
+    },
+    {
+        "name": "Stormwhirl (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN192",
+        "type": "Lightning, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN192.webp"
+        }
+    },
+    {
+        "name": "Chromatic Refinement (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN193",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN193.webp"
+        }
+    },
+    {
+        "name": "Chromatic Refinement (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN194",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN194.webp"
+        }
+    },
+    {
+        "name": "Chromatic Refinement (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN195",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN195.webp"
+        }
+    },
+    {
+        "name": "Thunderous Retort (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN196",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN196.webp"
+        }
+    },
+    {
+        "name": "Thunderous Retort (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN197",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN197.webp"
+        }
+    },
+    {
+        "name": "Thunderous Retort (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN198",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN198.webp"
+        }
+    },
+    {
+        "name": "Sigil of Astral Flow (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN199",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN199.webp"
+        }
+    },
+    {
+        "name": "Sigil of Lightning (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN200",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN200.webp"
+        }
+    },
+    {
+        "name": "Spellbane Sigil (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN201",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN201.webp"
+        }
+    },
+    {
+        "name": "Seeker's Hood",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN205",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN205.webp"
+        }
+    },
+    {
+        "name": "Seeker's Gilet",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN206",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN206.webp"
+        }
+    },
+    {
+        "name": "Seeker's Mitts",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN207",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN207.webp"
+        }
+    },
+    {
+        "name": "Seeker's Leggings",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN208",
+        "type": "Generic, Equipment, Legs",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN208.webp"
+        }
+    },
+    {
+        "name": "Helm of Astral Sanctuary",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN209",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN209.webp"
+        }
+    },
+    {
+        "name": "Robe of Astral Sanctuary",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN210",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN210.webp"
+        }
+    },
+    {
+        "name": "Gloves of Astral Sanctuary",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN211",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN211.webp"
+        }
+    },
+    {
+        "name": "Boots of Astral Sanctuary",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "OMN212",
+        "type": "Generic, Equipment, Legs",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN212.webp"
+        }
+    },
+    {
+        "name": "Browbeat (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "OMN213",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN213.webp"
+        }
+    },
+    {
+        "name": "Step Between (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "OMN214",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN214.webp"
+        }
+    },
+    {
+        "name": "Tempt Over (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "OMN215",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN215.webp"
+        }
+    },
+    {
+        "name": "Ominous Aggression (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "OMN216",
+        "type": "Generic, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN216.webp"
+        }
+    },
+    {
+        "name": "Ominous Excavation (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "OMN217",
+        "type": "Generic, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN217.webp"
+        }
+    },
+    {
+        "name": "Ominous Respite (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "OMN218",
+        "type": "Generic, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN218.webp"
+        }
+    },
+    {
+        "name": "Conflicting Thoughts (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN219",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN219.webp"
+        }
+    },
+    {
+        "name": "Conflicting Thoughts (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN220",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN220.webp"
+        }
+    },
+    {
+        "name": "Conflicting Thoughts (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN221",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN221.webp"
+        }
+    },
+    {
+        "name": "Brush Off (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "OMN222",
+        "type": "Generic, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN222.webp"
+        }
+    },
+    {
+        "name": "Brush Off (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "OMN223",
+        "type": "Generic, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN223.webp"
+        }
+    },
+    {
+        "name": "Brush Off (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "OMN224",
+        "type": "Generic, Instant",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/OMN224.webp"
+        }
+    }
+]
+[Layouts]
+   - iokthibknieu (1000000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - ltpaetdgjxql (175000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFRare
+   - qmryncnhiebb (35000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - yjngjldlvhxs (250000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - jlfkghylbvac (43750) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - fbpqwuntzuzs (8750) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - xwgpzpaosdql (40000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - iffqutnvpijg (7000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - hjzeozaafozt (1400) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - rduzinbxvfxy (1000000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - qprnevylazle (175000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - mamiarvhgjqa (35000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - eweariynfzpu (250000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - pvdjpjqgvwoy (43750) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - jtruwqxrrcsp (8750) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - lbymkkruhnor (40000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - cgbfefnqqmcn (7000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - lxvtaohkkirg (1400) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - mqcdtrmxcyal (1000000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - ktxuyfkvftxw (175000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFRare
+   - lfszxemtbvyd (35000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - ltkcyxttzvjc (250000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - snnvctteyxjs (43750) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - sxilveolvomv (8750) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - bifqvoglvlzq (40000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - oeqehsqmwjom (7000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - ehbrqdwhtggg (1400) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - kivggqqrhepj (1000000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - brlhooymzvgw (175000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - ucivkfkvenlk (35000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - rpqefmlnswrb (250000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - ykiieoebevkf (43750) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - tbozduyfytcm (8750) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - jczbaxibsffz (40000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - niqwgocqtxnn (7000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - gndfjnzckvtk (1400) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - kpujktzbfyed (1000000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - uosblwofexvj (175000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFRare
+   - hrkzcinjjgos (35000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - nrnzfdmdloey (250000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - kdyywkzywyij (43750) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - saqhgurysogh (8750) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - siasbzvbiszo (40000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - pptixrunvmwl (7000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - jjjhxqmkqhmx (1400) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - xjtuopcahkcf (1000000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - uhjskoeeuddu (175000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - bizahwijoorl (35000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - wagrxpnhydud (250000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - nqdkkabeoxuy (43750) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - ttqkbjwvegod (8750) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - dtevdxmcbjhk (40000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - bqlutdfktkkw (7000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - lhbeomqywssa (1400) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       2 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - oilabppxaeyf (1000000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - cvfkqtqrdzzv (175000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - nrvazhfpxevn (35000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - ptxvyylnoffq (250000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - kgrvbifctwrf (43750) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - djaskpobwyag (8750) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - ynoqilorvccw (40000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - fjodfzboaajd (7000) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - znpmuyybshnj (1400) 
+       2 LightningIllusionist
+       2 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - dtbjrrandrbt (1000000) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - qjnblkjfbtkk (175000) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - xuqxinlbgpvx (35000) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - btfqvwzaxntt (250000) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - havgfmsrbgxi (43750) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - wsajpnxzbhid (8750) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - esfpwnekrbfz (40000) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - mjyzgnjlfjej (7000) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - akpoxvgskxwp (1400) 
+       3 LightningIllusionist
+       1 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - pvbwjfsdixbt (1000000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - onstxstfphxf (175000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - yvxanmsxdvuc (35000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - zjbqdjeurxpb (250000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - kxcwtilfqrpe (43750) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - fkwpyebkphgc (8750) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - zaogoigmdeit (40000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - ncjrputxvhsb (7000) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - nwwalbkwyxzu (1400) 
+       3 LightningIllusionist
+       2 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - stnrnrrkavas (1000000) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - lxkkvigmamnw (175000) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - cqcsupswklgl (35000) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - sodrkzwqedpc (250000) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - adredjummbth (43750) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - kfcwtwlmcgmq (8750) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - vqrzjnfjnsix (40000) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - xqospcacbvxj (7000) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - ibrnztibscti (1400) 
+       1 LightningIllusionist
+       3 LightningRuneblade
+       2 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - xwidewxqapez (1000000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - pcchkeuhemnp (175000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - ncxfvedhdych (35000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - fppeldcmohtr (250000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - gyxgizgbkpfg (43750) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - wfgbtpcsrlld (8750) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - evzpbfmdwthe (40000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - lnaulmlpywda (7000) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - fxlrvovmhpjq (1400) 
+       2 LightningIllusionist
+       3 LightningRuneblade
+       1 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - iketsbrzcoxj (1000000) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - ppcybqiwlqyy (175000) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - rtyjwtqhgjmr (35000) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - yrqpamlvxbyy (250000) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - uqxafeyzrwtv (43750) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - dmkdtwwkyvch (8750) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - laqfkzhdjxfo (40000) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - gefqhklhlchv (7000) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - ljholhljxoho (1400) 
+       1 LightningIllusionist
+       2 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+   - ougshpmkjylc (1000000) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFCommon
+   - slzxscpqames (175000) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFRare
+   - ukpzuhmofybz (35000) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 rare
+       1 RFMythic
+   - tgihgljixaxh (250000) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFCommon
+   - fomupnaiasqq (43750) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFRare
+   - fcvdpeaqyhto (8750) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       1 rare
+       1 Mythic
+       1 RFMythic
+   - uhhvnnlweuqu (40000) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFCommon
+   - ravhhlidjwey (7000) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFRare
+   - ecxidtxmuhsj (1400) 
+       2 LightningIllusionist
+       1 LightningRuneblade
+       3 LightningWizard
+       3 Lightning
+       1 Generic
+       1 Equipment
+       2 Mythic
+       1 RFMythic
+[LightningWizard]
+4 Comet Collision (red)
+4 Comet Collision (yellow)
+4 Comet Collision (blue)
+4 Enion Surge (red)
+4 Enion Surge (yellow)
+4 Enion Surge (blue)
+4 Lightning Overload (red)
+4 Lightning Overload (yellow)
+4 Lightning Overload (blue)
+4 Meteoric Impact (red)
+4 Meteoric Impact (yellow)
+4 Meteoric Impact (blue)
+4 Nebula Duality (red)
+4 Nebula Duality (yellow)
+4 Nebula Duality (blue)
+4 Tap Lessons Past (red)
+4 Tap Lessons Past (yellow)
+4 Tap Lessons Past (blue)
+4 Cosmic Suture (red)
+4 Cosmic Suture (yellow)
+4 Cosmic Suture (blue)
+4 Constella Contemplation (yellow)
+4 Constella Flowslide (yellow)
+4 Constella Uplift (yellow)
+[LightningIllusionist]
+4 Cosmic Duality (red)
+4 Cosmic Duality (yellow)
+4 Cosmic Duality (blue)
+4 Ebbing Arcstride (red)
+4 Ebbing Arcstride (yellow)
+4 Ebbing Arcstride (blue)
+4 Pulsing Cardia (red)
+4 Pulsing Cardia (yellow)
+4 Pulsing Cardia (blue)
+4 Shattering Flowtide (red)
+4 Shattering Flowtide (yellow)
+4 Shattering Flowtide (blue)
+4 Auric Shards (red)
+4 Auric Shards (yellow)
+4 Auric Shards (blue)
+4 Holo Shield (red)
+4 Holo Shield (yellow)
+4 Holo Shield (blue)
+4 Circular Flowtide (yellow)
+4 Elliptical Conflux (yellow)
+4 Nebulus Cycle (yellow)
+4 Crackle from Afar (blue)
+4 Fleeing Starbreeze (blue)
+4 Nourishing Glow (blue)
+[LightningRuneblade]
+4 Electryn Joltstep (red)
+4 Electryn Joltstep (yellow)
+4 Electryn Joltstep (blue)
+4 Quick Succession (red)
+4 Quick Succession (yellow)
+4 Quick Succession (blue)
+4 Destructive Fleetfoot (red)
+4 Destructive Fleetfoot (yellow)
+4 Destructive Fleetfoot (blue)
+4 Path of Same Ends (red)
+4 Path of Same Ends (yellow)
+4 Path of Same Ends (blue)
+4 Rush of Power (red)
+4 Rush of Power (yellow)
+4 Rush of Power (blue)
+4 Singeing Flowstride (red)
+4 Singeing Flowstride (yellow)
+4 Singeing Flowstride (blue)
+4 Stunning Swipe (red)
+4 Stunning Swipe (yellow)
+4 Stunning Swipe (blue)
+4 Voltbound Duality (red)
+4 Voltbound Duality (yellow)
+4 Voltbound Duality (blue)
+[Lightning]
+4 Astral Assault (red)
+4 Astral Assault (yellow)
+4 Astral Assault (blue)
+4 Electrolyze (red)
+4 Electrolyze (yellow)
+4 Electrolyze (blue)
+4 Flittering Spike (red)
+4 Flittering Spike (yellow)
+4 Flittering Spike (blue)
+4 Glide Through Starlight (red)
+4 Glide Through Starlight (yellow)
+4 Glide Through Starlight (blue)
+4 Heaven's Claws (red)
+4 Heaven's Claws (yellow)
+4 Heaven's Claws (blue)
+4 Stellar Glide (red)
+4 Stellar Glide (yellow)
+4 Stellar Glide (blue)
+4 Volatile Fluxor (red)
+4 Volatile Fluxor (yellow)
+4 Volatile Fluxor (blue)
+4 Flittering Forcefield (red)
+4 Flittering Forcefield (yellow)
+4 Flittering Forcefield (blue)
+4 Calmveil of Volthaven (red)
+4 Calmveil of Volthaven (yellow)
+4 Calmveil of Volthaven (blue)
+4 Cosmic Flare (red)
+4 Starworld Warning (yellow)
+4 Starlight Road (blue)
+4 Stormshard (red)
+4 Stormshatter (yellow)
+4 Stormwhirl (blue)
+4 Chromatic Refinement (red)
+4 Chromatic Refinement (yellow)
+4 Chromatic Refinement (blue)
+4 Thunderous Retort (red)
+4 Thunderous Retort (yellow)
+4 Thunderous Retort (blue)
+4 Sigil of Astral Flow (blue)
+4 Sigil of Lightning (blue)
+4 Spellbane Sigil (blue)
+[Generic]
+4 Conflicting Thoughts (red)
+4 Conflicting Thoughts (yellow)
+4 Conflicting Thoughts (blue)
+4 Brush Off (red)
+4 Brush Off (yellow)
+4 Brush Off (blue)
+[Equipment]
+6 Fingers of Fragmentation
+6 Snap Fingers
+6 Constella Waves
+6 Constella Tiara
+6 Starflow Robes
+6 Laced Lightning
+6 Seeker's Hood
+6 Seeker's Gilet
+6 Seeker's Mitts
+6 Seeker's Leggings
+6 Helm of Astral Sanctuary
+6 Robe of Astral Sanctuary
+6 Gloves of Astral Sanctuary
+6 Boots of Astral Sanctuary
+[rare]
+2 Blink of an Eye (red)
+2 Fraying Lifeforce (red)
+2 Scattering Conflux (red)
+2 Polarus Pulse Ray (red)
+2 Polarus Pulse Ray (yellow)
+2 Polarus Pulse Ray (blue)
+2 Corrosive Space Dust (red)
+2 Corrosive Space Dust (yellow)
+2 Corrosive Space Dust (blue)
+2 Clear Conscience (red)
+2 Clear Conscience (yellow)
+2 Clear Conscience (blue)
+2 Erode Authority (red)
+2 Erode Authority (yellow)
+2 Erode Authority (blue)
+2 Dashing Flashfoot (yellow)
+2 Electryn Mindmeld (yellow)
+2 Prophetic Quickstep (yellow)
+2 Stinging Sprite (red)
+2 Stinging Sprite (yellow)
+2 Stinging Sprite (blue)
+2 Mercurial Skies (red)
+2 Mercurial Skies (yellow)
+2 Mercurial Skies (blue)
+2 Arcanic Cunning (red)
+2 Arcanic Cunning (yellow)
+2 Arcanic Cunning (blue)
+2 Leech Memory (red)
+2 Leech Renown (red)
+2 Leech Vitality (red)
+2 Arc Ramp (red)
+2 Arc Ramp (yellow)
+2 Arc Ramp (blue)
+2 Core Reaction (red)
+2 Core Reaction (yellow)
+2 Core Reaction (blue)
+2 Flash Bolt (red)
+2 Flash Bolt (yellow)
+2 Flash Bolt (blue)
+2 Aethersling (red)
+2 Nucleus Aetherbolt (red)
+2 Turn to Mindfire (red)
+2 Haven Veil (red)
+2 Haven Veil (yellow)
+2 Haven Veil (blue)
+2 Beckoning Brilliance (red)
+2 Flowshard Elemental (red)
+2 Lightning Form (red)
+2 Visionary of Orbits (red)
+2 Flowing Stormstrike (red)
+2 Meteoric Rise (red)
+2 Voltic Impact (red)
+2 Rift Breaker (red)
+2 Rift Breaker (yellow)
+2 Rift Breaker (blue)
+2 Flow Through (blue)
+2 Livewire Press (red)
+2 Ominous Aggression (red)
+2 Ominous Excavation (blue)
+2 Ominous Respite (yellow)
+[Mythic]
+2 Unwinding Finality (red)
+2 Flicker Reality (blue)
+2 Fractal Creation (blue)
+2 Tempestuous Kiss (red)
+2 Arcanic Reproach (blue)
+2 Caress of the Reaper (red)
+2 Astral Bridge (red)
+2 Echoflash (yellow)
+2 Tome of Quandaries (blue)
+2 Astral Strike (red)
+2 Flowstate Embodiment (red)
+2 Static Shelter (yellow)
+2 Browbeat (blue)
+2 Step Between (red)
+2 Tempt Over (yellow)
+[RFCommon]
+1 Cosmic Duality (red)
+1 Cosmic Duality (yellow)
+1 Cosmic Duality (blue)
+1 Ebbing Arcstride (red)
+1 Ebbing Arcstride (yellow)
+1 Ebbing Arcstride (blue)
+1 Pulsing Cardia (red)
+1 Pulsing Cardia (yellow)
+1 Pulsing Cardia (blue)
+1 Shattering Flowtide (red)
+1 Shattering Flowtide (yellow)
+1 Shattering Flowtide (blue)
+1 Auric Shards (red)
+1 Auric Shards (yellow)
+1 Auric Shards (blue)
+1 Holo Shield (red)
+1 Holo Shield (yellow)
+1 Holo Shield (blue)
+1 Circular Flowtide (yellow)
+1 Elliptical Conflux (yellow)
+1 Nebulus Cycle (yellow)
+1 Crackle from Afar (blue)
+1 Fleeing Starbreeze (blue)
+1 Nourishing Glow (blue)
+1 Fingers of Fragmentation
+1 Snap Fingers
+1 Destructive Fleetfoot (red)
+1 Destructive Fleetfoot (yellow)
+1 Destructive Fleetfoot (blue)
+1 Path of Same Ends (red)
+1 Path of Same Ends (yellow)
+1 Path of Same Ends (blue)
+1 Rush of Power (red)
+1 Rush of Power (yellow)
+1 Rush of Power (blue)
+1 Singeing Flowstride (red)
+1 Singeing Flowstride (yellow)
+1 Singeing Flowstride (blue)
+1 Stunning Swipe (red)
+1 Stunning Swipe (yellow)
+1 Stunning Swipe (blue)
+1 Voltbound Duality (red)
+1 Voltbound Duality (yellow)
+1 Voltbound Duality (blue)
+1 Electryn Joltstep (red)
+1 Electryn Joltstep (yellow)
+1 Electryn Joltstep (blue)
+1 Quick Succession (red)
+1 Quick Succession (yellow)
+1 Quick Succession (blue)
+1 Constella Waves
+1 Enion Surge (red)
+1 Enion Surge (yellow)
+1 Enion Surge (blue)
+1 Lightning Overload (red)
+1 Lightning Overload (yellow)
+1 Lightning Overload (blue)
+1 Meteoric Impact (red)
+1 Meteoric Impact (yellow)
+1 Meteoric Impact (blue)
+1 Nebula Duality (red)
+1 Nebula Duality (yellow)
+1 Nebula Duality (blue)
+1 Tap Lessons Past (red)
+1 Tap Lessons Past (yellow)
+1 Tap Lessons Past (blue)
+1 Cosmic Suture (red)
+1 Cosmic Suture (yellow)
+1 Cosmic Suture (blue)
+1 Constella Contemplation (yellow)
+1 Constella Flowslide (yellow)
+1 Constella Uplift (yellow)
+1 Constella Tiara
+1 Starflow Robes
+1 Laced Lightning
+1 Astral Assault (red)
+1 Astral Assault (yellow)
+1 Astral Assault (blue)
+1 Electrolyze (red)
+1 Electrolyze (yellow)
+1 Electrolyze (blue)
+1 Flittering Spike (red)
+1 Flittering Spike (yellow)
+1 Flittering Spike (blue)
+1 Glide Through Starlight (red)
+1 Glide Through Starlight (yellow)
+1 Glide Through Starlight (blue)
+1 Stellar Glide (red)
+1 Stellar Glide (yellow)
+1 Stellar Glide (blue)
+1 Volatile Fluxor (red)
+1 Volatile Fluxor (yellow)
+1 Volatile Fluxor (blue)
+1 Flittering Forcefield (red)
+1 Flittering Forcefield (yellow)
+1 Flittering Forcefield (blue)
+1 Calmveil of Volthaven (red)
+1 Calmveil of Volthaven (yellow)
+1 Calmveil of Volthaven (blue)
+1 Cosmic Flare (red)
+1 Starworld Warning (yellow)
+1 Starlight Road (blue)
+1 Stormshard (red)
+1 Stormshatter (yellow)
+1 Stormwhirl (blue)
+1 Chromatic Refinement (red)
+1 Chromatic Refinement (yellow)
+1 Chromatic Refinement (blue)
+1 Thunderous Retort (red)
+1 Thunderous Retort (yellow)
+1 Thunderous Retort (blue)
+1 Sigil of Astral Flow (blue)
+1 Sigil of Lightning (blue)
+1 Spellbane Sigil (blue)
+1 Helm of Astral Sanctuary
+1 Robe of Astral Sanctuary
+1 Gloves of Astral Sanctuary
+1 Boots of Astral Sanctuary
+1 Conflicting Thoughts (red)
+1 Conflicting Thoughts (yellow)
+1 Conflicting Thoughts (blue)
+1 Comet Collision (red)
+1 Comet Collision (yellow)
+1 Comet Collision (blue)
+[RFRare]
+1 Blink of an Eye (red)
+1 Fraying Lifeforce (red)
+1 Scattering Conflux (red)
+1 Polarus Pulse Ray (red)
+1 Polarus Pulse Ray (yellow)
+1 Polarus Pulse Ray (blue)
+1 Corrosive Space Dust (red)
+1 Corrosive Space Dust (yellow)
+1 Corrosive Space Dust (blue)
+1 Clear Conscience (red)
+1 Clear Conscience (yellow)
+1 Clear Conscience (blue)
+1 Erode Authority (red)
+1 Erode Authority (yellow)
+1 Erode Authority (blue)
+1 Dashing Flashfoot (yellow)
+1 Electryn Mindmeld (yellow)
+1 Prophetic Quickstep (yellow)
+1 Stinging Sprite (red)
+1 Stinging Sprite (yellow)
+1 Stinging Sprite (blue)
+1 Mercurial Skies (red)
+1 Mercurial Skies (yellow)
+1 Mercurial Skies (blue)
+1 Arcanic Cunning (red)
+1 Arcanic Cunning (yellow)
+1 Arcanic Cunning (blue)
+1 Leech Memory (red)
+1 Leech Renown (red)
+1 Leech Vitality (red)
+1 Arc Ramp (red)
+1 Arc Ramp (yellow)
+1 Arc Ramp (blue)
+1 Core Reaction (red)
+1 Core Reaction (yellow)
+1 Core Reaction (blue)
+1 Flash Bolt (red)
+1 Flash Bolt (yellow)
+1 Flash Bolt (blue)
+1 Aethersling (red)
+1 Nucleus Aetherbolt (red)
+1 Turn to Mindfire (red)
+1 Haven Veil (red)
+1 Haven Veil (yellow)
+1 Haven Veil (blue)
+1 Beckoning Brilliance (red)
+1 Flowshard Elemental (red)
+1 Lightning Form (red)
+1 Visionary of Orbits (red)
+1 Flowing Stormstrike (red)
+1 Meteoric Rise (red)
+1 Voltic Impact (red)
+1 Rift Breaker (red)
+1 Rift Breaker (yellow)
+1 Rift Breaker (blue)
+1 Flow Through (blue)
+1 Livewire Press (red)
+1 Ominous Aggression (red)
+1 Ominous Excavation (blue)
+1 Ominous Respite (yellow)
+[RFMythic]
+1 Unwinding Finality (red)
+1 Flicker Reality (blue)
+1 Fractal Creation (blue)
+1 Tempestuous Kiss (red)
+1 Arcanic Reproach (blue)
+1 Caress of the Reaper (red)
+1 Astral Bridge (red)
+1 Echoflash (yellow)
+1 Tome of Quandaries (blue)
+1 Astral Strike (red)
+1 Flowstate Embodiment (red)
+1 Static Shelter (yellow)
+1 Browbeat (blue)
+1 Step Between (red)
+1 Tempt Over (yellow)

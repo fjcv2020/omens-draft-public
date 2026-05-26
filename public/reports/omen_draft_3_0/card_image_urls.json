@@ -1,0 +1,1256 @@
+{
+  "meteoric_impact_red|Meteoric Impact": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN118.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN118"
+  },
+  "tap_lessons_past_red|Tap Lessons Past": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN124.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN124"
+  },
+  "constella_flowslide_yellow|Constella Flowslide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN131.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN131"
+  },
+  "comet_collision_red|Comet Collision": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN109.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN109"
+  },
+  "lightning_overload_blue|Lightning Overload": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN117.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN117"
+  },
+  "meteoric_impact_blue|Meteoric Impact": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN120.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN120"
+  },
+  "tap_lessons_past_blue|Tap Lessons Past": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN126.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN126"
+  },
+  "enion_surge_blue|Enion Surge": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN114.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN114"
+  },
+  "lightning_overload_red|Lightning Overload": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN115.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN115"
+  },
+  "cosmic_suture_yellow|Cosmic Suture": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN128.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN128"
+  },
+  "nebula_duality_red|Nebula Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN121.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN121"
+  },
+  "enion_surge_red|Enion Surge": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN112.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN112"
+  },
+  "cosmic_suture_red|Cosmic Suture": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN127.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN127"
+  },
+  "lightning_overload_yellow|Lightning Overload": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN116.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN116"
+  },
+  "nebula_duality_blue|Nebula Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN123.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN123"
+  },
+  "nebula_duality_yellow|Nebula Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN122.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN122"
+  },
+  "constella_uplift_yellow|Constella Uplift": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN132.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN132"
+  },
+  "enion_surge_yellow|Enion Surge": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN113.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN113"
+  },
+  "comet_collision_blue|Comet Collision": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN111.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN111"
+  },
+  "meteoric_impact_yellow|Meteoric Impact": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN119.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN119"
+  },
+  "tap_lessons_past_yellow|Tap Lessons Past": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN125.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN125"
+  },
+  "cosmic_flare_red|Cosmic Flare": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN187.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN187"
+  },
+  "circular_flowtide_yellow|Circular Flowtide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN033.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN033"
+  },
+  "conflicting_thoughts_blue|Conflicting Thoughts": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN221.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN221"
+  },
+  "constella_contemplation_yellow|Constella Contemplation": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN130.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN130"
+  },
+  "comet_collision_yellow|Comet Collision": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN110.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN110"
+  },
+  "chromatic_refinement_red|Chromatic Refinement": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN193.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN193"
+  },
+  "cosmic_duality_blue|Cosmic Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN017.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN017"
+  },
+  "destructive_fleetfoot_red|Destructive Fleetfoot": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN062.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN062"
+  },
+  "conflicting_thoughts_red|Conflicting Thoughts": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN219.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN219"
+  },
+  "turn_to_mindfire_red|Turn to Mindfire": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN136.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN136"
+  },
+  "voltbound_duality_blue|Voltbound Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN079.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN079"
+  },
+  "flash_bolt_red|Flash Bolt": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN106.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN106"
+  },
+  "path_of_same_ends_red|Path of Same Ends": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN065.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN065"
+  },
+  "stunning_swipe_blue|Stunning Swipe": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN076.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN076"
+  },
+  "auric_shards_red|Auric Shards": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN027.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN027"
+  },
+  "crackle_from_afar_blue|Crackle from Afar": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN036.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN036"
+  },
+  "shattering_flowtide_blue|Shattering Flowtide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN026.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN026"
+  },
+  "core_reaction_yellow|Core Reaction": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN104.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN104"
+  },
+  "ebbing_arcstride_blue|Ebbing Arcstride": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN020.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN020"
+  },
+  "rush_of_power_blue|Rush of Power": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN070.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN070"
+  },
+  "cosmic_suture_blue|Cosmic Suture": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN129.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN129"
+  },
+  "cosmic_duality_yellow|Cosmic Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN016.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN016"
+  },
+  "nourishing_glow_blue|Nourishing Glow": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN038.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN038"
+  },
+  "destructive_fleetfoot_blue|Destructive Fleetfoot": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN064.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN064"
+  },
+  "quick_succession_blue|Quick Succession": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN085.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN085"
+  },
+  "path_of_same_ends_yellow|Path of Same Ends": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN066.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN066"
+  },
+  "flittering_forcefield_red|Flittering Forcefield": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN181.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN181"
+  },
+  "aethersling_red|Aethersling": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN134.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN134"
+  },
+  "heavens_claws_blue|Heaven's Claws": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN174.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN174"
+  },
+  "starlight_road_blue|Starlight Road": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN189.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN189"
+  },
+  "brush_off_red|Brush Off": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN222.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN222"
+  },
+  "ebbing_arcstride_yellow|Ebbing Arcstride": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN019.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN019"
+  },
+  "elliptical_conflux_yellow|Elliptical Conflux": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN034.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN034"
+  },
+  "shattering_flowtide_red|Shattering Flowtide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN024.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN024"
+  },
+  "quick_succession_yellow|Quick Succession": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN084.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN084"
+  },
+  "voltbound_duality_red|Voltbound Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN077.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN077"
+  },
+  "stunning_swipe_red|Stunning Swipe": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN074.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN074"
+  },
+  "glide_through_starlight_blue|Glide Through Starlight": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN171.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN171"
+  },
+  "nucleus_aetherbolt_red|Nucleus Aetherbolt": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN135.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN135"
+  },
+  "pulsing_cardia_red|Pulsing Cardia": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN021.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN021"
+  },
+  "cosmic_duality_red|Cosmic Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN015.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN015"
+  },
+  "starworld_warning_yellow|Starworld Warning": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN188.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN188"
+  },
+  "rush_of_power_red|Rush of Power": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN068.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN068"
+  },
+  "electryn_joltstep_red|Electryn Joltstep": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN080.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN080"
+  },
+  "stellar_glide_blue|Stellar Glide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN177.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN177"
+  },
+  "fraying_lifeforce_red|Fraying Lifeforce": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN007.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN007"
+  },
+  "glide_through_starlight_red|Glide Through Starlight": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN169.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN169"
+  },
+  "electryn_joltstep_yellow|Electryn Joltstep": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN081.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN081"
+  },
+  "singeing_flowstride_red|Singeing Flowstride": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN071.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN071"
+  },
+  "sigil_of_astral_flow_blue|Sigil of Astral Flow": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN199.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN199"
+  },
+  "core_reaction_red|Core Reaction": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN103.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN103"
+  },
+  "flash_bolt_yellow|Flash Bolt": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN107.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN107"
+  },
+  "astral_assault_blue|Astral Assault": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN162.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN162"
+  },
+  "auric_shards_yellow|Auric Shards": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN028.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN028"
+  },
+  "fleeing_starbreeze_blue|Fleeing Starbreeze": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN037.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN037"
+  },
+  "path_of_same_ends_blue|Path of Same Ends": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN067.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN067"
+  },
+  "volatile_fluxor_red|Volatile Fluxor": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN178.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN178"
+  },
+  "corrosive_space_dust_yellow|Corrosive Space Dust": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN013.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN013"
+  },
+  "shattering_flowtide_yellow|Shattering Flowtide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN025.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN025"
+  },
+  "constella_waves|Constella Waves": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN097.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN097"
+  },
+  "helm_of_astral_sanctuary|Helm of Astral Sanctuary": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN209.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN209"
+  },
+  "starflow_robes|Starflow Robes": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN143.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN143"
+  },
+  "seekers_hood|Seeker's Hood": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN205.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN205"
+  },
+  "constella_tiara|Constella Tiara": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN142.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN142"
+  },
+  "boots_of_astral_sanctuary|Boots of Astral Sanctuary": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN212.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN212"
+  },
+  "robe_of_astral_sanctuary|Robe of Astral Sanctuary": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN210.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN210"
+  },
+  "seekers_gilet|Seeker's Gilet": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN206.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN206"
+  },
+  "seekers_leggings|Seeker's Leggings": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN208.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN208"
+  },
+  "snap_fingers|Snap Fingers": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN050.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN050"
+  },
+  "seekers_mitts|Seeker's Mitts": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN207.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN207"
+  },
+  "gloves_of_astral_sanctuary|Gloves of Astral Sanctuary": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN211.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN211"
+  },
+  "laced_lightning|Laced Lightning": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN144.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN144"
+  },
+  "fingers_of_fragmentation|Fingers of Fragmentation": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN039.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN039"
+  },
+  "thunderous_retort_blue|Thunderous Retort": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN198.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN198"
+  },
+  "echoflash_yellow|Echoflash": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN099.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN099"
+  },
+  "visionary_of_orbits_red|Visionary of Orbits": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN151.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN151"
+  },
+  "flowstate_embodiment_red|Flowstate Embodiment": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN146.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN146"
+  },
+  "spellbane_sigil_blue|Spellbane Sigil": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN201.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN201"
+  },
+  "tome_of_quandaries_blue|Tome of Quandaries": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN133.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN133"
+  },
+  "flittering_spike_red|Flittering Spike": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN166.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN166"
+  },
+  "flittering_spike_blue|Flittering Spike": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN168.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN168"
+  },
+  "volatile_fluxor_blue|Volatile Fluxor": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN180.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN180"
+  },
+  "chromatic_refinement_yellow|Chromatic Refinement": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN194.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN194"
+  },
+  "calmveil_of_volthaven_red|Calmveil of Volthaven": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN184.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN184"
+  },
+  "flash_bolt_blue|Flash Bolt": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN108.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN108"
+  },
+  "volatile_fluxor_yellow|Volatile Fluxor": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN179.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN179"
+  },
+  "flowshard_elemental_red|Flowshard Elemental": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN149.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN149"
+  },
+  "flittering_forcefield_yellow|Flittering Forcefield": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN182.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN182"
+  },
+  "flittering_forcefield_blue|Flittering Forcefield": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN183.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN183"
+  },
+  "electrolyze_red|Electrolyze": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN163.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN163"
+  },
+  "arc_ramp_red|Arc Ramp": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN100.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN100"
+  },
+  "electrolyze_yellow|Electrolyze": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN164.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN164"
+  },
+  "core_reaction_blue|Core Reaction": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN105.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN105"
+  },
+  "haven_veil_yellow|Haven Veil": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN138.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN138"
+  },
+  "static_shelter_yellow|Static Shelter": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN147.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN147"
+  },
+  "ominous_respite_yellow|Ominous Respite": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN218.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN218"
+  },
+  "thunderous_retort_yellow|Thunderous Retort": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN197.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN197"
+  },
+  "heavens_claws_red|Heaven's Claws": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN172.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN172"
+  },
+  "stellar_glide_red|Stellar Glide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN175.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN175"
+  },
+  "meteoric_rise_red|Meteoric Rise": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN153.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN153"
+  },
+  "haven_veil_blue|Haven Veil": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN139.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN139"
+  },
+  "brush_off_yellow|Brush Off": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN223.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN223"
+  },
+  "chromatic_refinement_blue|Chromatic Refinement": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN195.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN195"
+  },
+  "voltic_impact_red|Voltic Impact": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN154.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN154"
+  },
+  "arc_ramp_blue|Arc Ramp": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN102.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN102"
+  },
+  "astral_assault_red|Astral Assault": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN160.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN160"
+  },
+  "heavens_claws_yellow|Heaven's Claws": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN173.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN173"
+  },
+  "calmveil_of_volthaven_yellow|Calmveil of Volthaven": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN185.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN185"
+  },
+  "haven_veil_red|Haven Veil": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN137.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN137"
+  },
+  "flittering_spike_yellow|Flittering Spike": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN167.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN167"
+  },
+  "ominous_excavation_blue|Ominous Excavation": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN217.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN217"
+  },
+  "stormshard_red|Stormshard": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN190.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN190"
+  },
+  "conflicting_thoughts_yellow|Conflicting Thoughts": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN220.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN220"
+  },
+  "rift_breaker_red|Rift Breaker": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN155.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN155"
+  },
+  "beckoning_brilliance_red|Beckoning Brilliance": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN148.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN148"
+  },
+  "sigil_of_lightning_blue|Sigil of Lightning": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN200.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN200"
+  },
+  "stormwhirl_blue|Stormwhirl": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN192.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN192"
+  },
+  "astral_bridge_red|Astral Bridge": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN098.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN098"
+  },
+  "stellar_glide_yellow|Stellar Glide": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN176.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN176"
+  },
+  "stormshatter_yellow|Stormshatter": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN191.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN191"
+  },
+  "brush_off_blue|Brush Off": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN224.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN224"
+  },
+  "astral_strike_red|Astral Strike": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN145.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN145"
+  },
+  "arc_ramp_yellow|Arc Ramp": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN101.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN101"
+  },
+  "flowing_stormstrike_red|Flowing Stormstrike": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN152.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN152"
+  },
+  "rift_breaker_yellow|Rift Breaker": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN156.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN156"
+  },
+  "glide_through_starlight_yellow|Glide Through Starlight": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN170.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN170"
+  },
+  "thunderous_retort_red|Thunderous Retort": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN196.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN196"
+  },
+  "calmveil_of_volthaven_blue|Calmveil of Volthaven": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN186.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN186"
+  },
+  "step_between_red|Step Between": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN214.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN214"
+  },
+  "astral_assault_yellow|Astral Assault": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN161.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN161"
+  },
+  "lightning_form_red|Lightning Form": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN150.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN150"
+  },
+  "electrolyze_blue|Electrolyze": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN165.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN165"
+  },
+  "rift_breaker_blue|Rift Breaker": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN157.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN157"
+  },
+  "browbeat_blue|Browbeat": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN213.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN213"
+  },
+  "flow_through_blue|Flow Through": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN158.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN158"
+  },
+  "tempt_over_yellow|Tempt Over": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN215.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN215"
+  },
+  "ominous_aggression_red|Ominous Aggression": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN216.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN216"
+  },
+  "livewire_press_red|Livewire Press": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN159.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN159"
+  },
+  "dashing_flashfoot_yellow|Dashing Flashfoot": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN053.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN053"
+  },
+  "tempestuous_kiss_red|Tempestuous Kiss": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN051.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN051"
+  },
+  "stinging_sprite_red|Stinging Sprite": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN056.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN056"
+  },
+  "caress_of_the_reaper_red|Caress of the Reaper": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN087.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN087"
+  },
+  "arcanic_reproach_blue|Arcanic Reproach": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN052.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN052"
+  },
+  "prophetic_quickstep_yellow|Prophetic Quickstep": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN055.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN055"
+  },
+  "quick_succession_red|Quick Succession": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN083.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN083"
+  },
+  "singeing_flowstride_yellow|Singeing Flowstride": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN072.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN072"
+  },
+  "electryn_joltstep_blue|Electryn Joltstep": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN082.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN082"
+  },
+  "voltbound_duality_yellow|Voltbound Duality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN078.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN078"
+  },
+  "leech_renown_red|Leech Renown": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN092.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN092"
+  },
+  "leech_memory_red|Leech Memory": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN091.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN091"
+  },
+  "singeing_flowstride_blue|Singeing Flowstride": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN073.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN073"
+  },
+  "stinging_sprite_blue|Stinging Sprite": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN058.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN058"
+  },
+  "leech_vitality_red|Leech Vitality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN093.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN093"
+  },
+  "rush_of_power_yellow|Rush of Power": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN069.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN069"
+  },
+  "arcanic_cunning_blue|Arcanic Cunning": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN090.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN090"
+  },
+  "electryn_mindmeld_yellow|Electryn Mindmeld": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN054.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN054"
+  },
+  "mercurial_skies_blue|Mercurial Skies": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN061.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN061"
+  },
+  "destructive_fleetfoot_yellow|Destructive Fleetfoot": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN063.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN063"
+  },
+  "arcanic_cunning_red|Arcanic Cunning": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN088.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN088"
+  },
+  "mercurial_skies_yellow|Mercurial Skies": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN060.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN060"
+  },
+  "stunning_swipe_yellow|Stunning Swipe": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN075.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN075"
+  },
+  "mercurial_skies_red|Mercurial Skies": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN059.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN059"
+  },
+  "stinging_sprite_yellow|Stinging Sprite": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN057.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN057"
+  },
+  "arcanic_cunning_yellow|Arcanic Cunning": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN089.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN089"
+  },
+  "scattering_conflux_red|Scattering Conflux": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN008.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN008"
+  },
+  "corrosive_space_dust_red|Corrosive Space Dust": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN012.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN012"
+  },
+  "polarus_pulse_ray_red|Polarus Pulse Ray": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN009.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN009"
+  },
+  "nebulus_cycle_yellow|Nebulus Cycle": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN035.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN035"
+  },
+  "ebbing_arcstride_red|Ebbing Arcstride": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN018.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN018"
+  },
+  "polarus_pulse_ray_blue|Polarus Pulse Ray": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN011.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN011"
+  },
+  "blink_of_an_eye_red|Blink of an Eye": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN006.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN006"
+  },
+  "unwinding_finality_red|Unwinding Finality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN004.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN004"
+  },
+  "pulsing_cardia_yellow|Pulsing Cardia": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN022.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN022"
+  },
+  "pulsing_cardia_blue|Pulsing Cardia": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN023.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN023"
+  },
+  "polarus_pulse_ray_yellow|Polarus Pulse Ray": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN010.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN010"
+  },
+  "corrosive_space_dust_blue|Corrosive Space Dust": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN014.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN014"
+  },
+  "auric_shards_blue|Auric Shards": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN029.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN029"
+  },
+  "clear_conscience_blue|Clear Conscience": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN043.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN043"
+  },
+  "flicker_reality_blue|Flicker Reality": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN005.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN005"
+  },
+  "clear_conscience_red|Clear Conscience": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN041.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN041"
+  },
+  "fractal_creation_blue|Fractal Creation": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN040.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN040"
+  },
+  "holo_shield_red|Holo Shield": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN030.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN030"
+  },
+  "erode_authority_blue|Erode Authority": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN046.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN046"
+  },
+  "holo_shield_yellow|Holo Shield": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN031.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN031"
+  },
+  "clear_conscience_yellow|Clear Conscience": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN042.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN042"
+  },
+  "erode_authority_red|Erode Authority": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN044.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN044"
+  },
+  "erode_authority_yellow|Erode Authority": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN045.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN045"
+  },
+  "holo_shield_blue|Holo Shield": {
+    "ok": true,
+    "image_url": "https://prod-content.fabrary.io/cards/OMN032.webp",
+    "source": "resources/OMN_Draft_2.txt",
+    "collector_number": "OMN032"
+  }
+}

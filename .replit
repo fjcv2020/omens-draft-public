@@ -1,0 +1,4 @@
+run = "python app.py"
+
+[deployment]
+run = ["python", "app.py"]
